@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #f2eadf;
+  --panel: #fffaf3;
+  --ink: #241f1a;
+  --muted: #776d63;
+  --line: #d9cec0;
+  --key: #f7efe5;
+  --key-hover: #eadccc;
+  --accent: #4f443a;
+  --good: #315b3c;
+  --bad: #8a3e35;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+button, input, select { font: inherit; }
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 28px 18px 60px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  line-height: .95;
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+
+p { margin: 0; color: var(--muted); }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 24px rgba(50, 40, 30, .05);
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1fr;
+  gap: 20px;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label, .small-label {
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+select, .answer-wrap {
+  border: 1px solid var(--line);
+  background: white;
+  border-radius: 12px;
+  min-height: 46px;
+}
+
+select { padding: 0 12px; }
+
+.exercise-meta {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: .9rem;
+  margin-bottom: 12px;
+}
+
+.word-card {
+  text-align: center;
+  padding: 24px 10px 26px;
+}
+
+.word {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: clamp(3rem, 10vw, 6rem);
+  margin: 4px 0 12px;
+}
+
+.audio-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.answer-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  margin-top: 8px;
+}
+
+.answer-wrap input {
+  border: 0;
+  outline: 0;
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  text-align: center;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.65rem;
+  padding: 10px;
+}
+
+.slash {
+  font-family: Georgia, serif;
+  font-size: 1.8rem;
+}
+
+.keyboard-section { margin-top: 22px; }
+
+.keyboard-title {
+  font-weight: 800;
+  letter-spacing: .06em;
+  font-size: .82rem;
+  margin-bottom: 9px;
+}
+
+.keyboard-title span {
+  color: var(--muted);
+  font-weight: 500;
+  margin-left: 8px;
+  letter-spacing: 0;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.key {
+  min-width: 48px;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  background: var(--key);
+  border-radius: 11px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+}
+
+.key:hover { background: var(--key-hover); transform: translateY(-1px); }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+button {
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.primary { background: var(--accent); color: white; }
+.secondary, .ghost { background: var(--key); color: var(--ink); border: 1px solid var(--line); }
+.large { padding: 13px 20px; }
+
+.feedback {
+  margin-top: 18px;
+  border-radius: 14px;
+  padding: 15px;
+  line-height: 1.55;
+}
+
+.feedback.good { background: #e9f1e9; color: var(--good); }
+.feedback.bad { background: #f6e8e5; color: var(--bad); }
+
+.feedback code {
+  font-size: 1.05rem;
+  background: rgba(255,255,255,.6);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.stats div { display: grid; gap: 4px; }
+.stats strong { font-size: 1.7rem; }
+.stats span { color: var(--muted); font-size: .85rem; }
+
+.muted { color: var(--muted); font-size: .9rem; }
+.hidden { display: none; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: .78rem;
+  padding: 4px 4px;
+}
+
+@media (max-width: 760px) {
+  .controls { grid-template-columns: 1fr; }
+  .topbar { flex-direction: column; }
+  .stats { gap: 18px; }
+  footer { flex-direction: column; gap: 5px; }
+}

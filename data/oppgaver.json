@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "language": "nb",
+  "notation": {
+    "vowelLength": "ː",
+    "stress": "'",
+    "tone": [
+      "1",
+      "2"
+    ],
+    "slashes": true
+  },
+  "sets": [
+    {
+      "id": "skriving-lydskrift-1",
+      "title": "Skriving av lydskrift – oppgaveark 1",
+      "description": "Eksempler hentet fra oppgavene om fonemisk transkripsjon.",
+      "exercises": [
+        {
+          "id": "bønner",
+          "type": "write-ipa",
+          "word": "bønner",
+          "answers": [
+            "2bøner"
+          ]
+        },
+        {
+          "id": "bønder",
+          "type": "write-ipa",
+          "word": "bønder",
+          "answers": [
+            "1bøner"
+          ]
+        },
+        {
+          "id": "vannet",
+          "type": "write-ipa",
+          "word": "vannet",
+          "answers": [
+            "1vane",
+            "2vanet"
+          ]
+        },
+        {
+          "id": "hoppe",
+          "type": "write-ipa",
+          "word": "hoppe",
+          "answers": [
+            "2hope"
+          ]
+        },
+        {
+          "id": "hoppet",
+          "type": "write-ipa",
+          "word": "hoppet",
+          "answers": [
+            "1hope",
+            "2hopet"
+          ]
+        },
+        {
+          "id": "kvinne",
+          "type": "write-ipa",
+          "word": "kvinne",
+          "answers": [
+            "2kvine"
+          ]
+        },
+        {
+          "id": "lese",
+          "type": "write-ipa",
+          "word": "lese",
+          "answers": [
+            "2le:se"
+          ]
+        },
+        {
+          "id": "betale",
+          "type": "write-ipa",
+          "word": "betale",
+          "answers": [
+            "be1ta:le"
+          ]
+        },
+        {
+          "id": "mislike",
+          "type": "write-ipa",
+          "word": "mislike",
+          "answers": [
+            "2misli:ke"
+          ]
+        },
+        {
+          "id": "arkiv",
+          "type": "write-ipa",
+          "word": "arkiv",
+          "answers": [
+            "ar1ki:v"
+          ]
+        },
+        {
+          "id": "tanke",
+          "type": "write-ipa",
+          "word": "tanke",
+          "answers": [
+            "2taŋke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trykk-og-tonem",
+      "title": "Trykk og tonem – oppgaveark 2",
+      "description": "Eksempler fra oppgavene om hovedtrykk og tonelag.",
+      "exercises": [
+        {
+          "id": "biltur",
+          "type": "write-ipa",
+          "word": "biltur",
+          "answers": [
+            "1bi:ltʉ:r"
+          ]
+        },
+        {
+          "id": "spennende",
+          "type": "write-ipa",
+          "word": "spennende",
+          "answers": [
+            "2spenne",
+            "2spenene"
+          ]
+        },
+        {
+          "id": "vanskelighet",
+          "type": "write-ipa",
+          "word": "vanskelighet",
+          "answers": [
+            "2vansklihe:t",
+            "2vanskelihe:t"
+          ]
+        },
+        {
+          "id": "butikk",
+          "type": "write-ipa",
+          "word": "butikk",
+          "answers": [
+            "bʉ1tik"
+          ]
+        },
+        {
+          "id": "database",
+          "type": "write-ipa",
+          "word": "database",
+          "answers": [
+            "data2ba:se",
+            "1da:tabase"
+          ]
+        },
+        {
+          "id": "fordel-substantiv",
+          "type": "write-ipa",
+          "word": "fordel (substantiv)",
+          "answers": [
+            "2foɖe:l"
+          ]
+        },
+        {
+          "id": "fordel-verb",
+          "type": "write-ipa",
+          "word": "fordel (verb)",
+          "answers": [
+            "fo1ɖe:l"
+          ]
+        },
+        {
+          "id": "betydelighet",
+          "type": "write-ipa",
+          "word": "ubetydelighet",
+          "answers": [
+            "ʉbe1ty:delighe:t"
+          ]
+        },
+        {
+          "id": "sjokolade",
+          "type": "write-ipa",
+          "word": "sjokolade",
+          "answers": [
+            "ʃuku2la:de"
+          ]
+        },
+        {
+          "id": "analyse",
+          "type": "write-ipa",
+          "word": "analyse",
+          "answers": [
+            "ana2ly:se"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesing-lydskrift",
+      "title": "Lesing av lydskrift",
+      "description": "Ord som du kan bruke senere til omvendt øving: lydskrift → vanlig rettskrivning.",
+      "exercises": [
+        {
+          "id": "butikk-lesing",
+          "type": "read-ipa",
+          "word": "butikk",
+          "ipa": "bʉ1tik"
+        },
+        {
+          "id": "perle-lesing",
+          "type": "read-ipa",
+          "word": "perle",
+          "ipa": "2pæ:ɭe"
+        },
+        {
+          "id": "mange-lesing",
+          "type": "read-ipa",
+          "word": "mange",
+          "ipa": "2maŋe"
+        },
+        {
+          "id": "lue-lesing",
+          "type": "read-ipa",
+          "word": "lue",
+          "ipa": "2lʉ:e"
+        },
+        {
+          "id": "hatten-lesing",
+          "type": "read-ipa",
+          "word": "hatten",
+          "ipa": "1hatn"
+        },
+        {
+          "id": "her-lesing",
+          "type": "read-ipa",
+          "word": "her",
+          "ipa": "1hæ:r"
+        },
+        {
+          "id": "deilig-lesing",
+          "type": "read-ipa",
+          "word": "deilig",
+          "ipa": "2dæili"
+        }
+      ]
+    }
+  ]
+}
