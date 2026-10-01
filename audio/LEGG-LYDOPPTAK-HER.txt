@@ -1,0 +1,1 @@
+Legg egne mp3/wav-opptak her. Referer til dem som f.eks. audio/sar.mp3 i oppgaver.json.
