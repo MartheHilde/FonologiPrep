@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg: #f2eadf;
-  --panel: #fffaf3;
-  --ink: #241f1a;
-  --muted: #776d63;
-  --line: #d9cec0;
-  --key: #f7efe5;
-  --key-hover: #eadccc;
-  --accent: #4f443a;
-  --good: #315b3c;
-  --bad: #8a3e35;
+--bg: #edf1f5;
+--panel: #ffffff;
+--ink: #1f2933;
+--muted: #667482;
+--line: #d5dde5;
+--key: #edf2f6;
+--key-hover: #dce6ee;
+--accent: #38546d;
+--good: #315f42;
+--bad: #99453d;
 }
 
 * { box-sizing: border-box; }
