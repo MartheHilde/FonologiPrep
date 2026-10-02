@@ -1,99 +1,35 @@
 <!doctype html>
 <html lang="no">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lydskrift-trener</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lydskrift-trener</title><link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <main class="app">
-    <header class="topbar">
-      <div>
-        <h1>Lydskrift-trener</h1>
-        <p>Øv på norsk fonemisk transkripsjon, vokallengde, trykk og tonelag.</p>
-      </div>
-      <button id="resetProgress" class="ghost">Nullstill progresjon</button>
-    </header>
-
-    <section class="panel controls">
-      <div class="control-group">
-        <label for="setSelect">Oppgavesett</label>
-        <select id="setSelect"></select>
-      </div>
-
-      <div class="control-group">
-        <span class="label">Hva skal sjekkes?</span>
-        <label><input type="checkbox" id="checkLength" checked> Vokallengde</label>
-        <label><input type="checkbox" id="checkStress"> Hovedtrykk</label>
-        <label><input type="checkbox" id="checkTone"> Tonelag</label>
-      </div>
-
-      <div class="control-group">
-        <span class="label">Vis fasit etter innsending</span>
-        <label><input type="checkbox" id="showAnswer" checked> Ja</label>
-      </div>
-    </section>
-
-    <section class="panel exercise">
-      <div class="exercise-meta">
-        <span id="progressText">Oppgave 1</span>
-        <span id="sourceType">Lydskrift</span>
-      </div>
-
-      <div class="word-card">
-        <div class="small-label">Ord</div>
-        <div id="word" class="word">—</div>
-        <div class="audio-row">
-          <button id="playWord" class="primary">▶ Spill av ord</button>
-          <span id="audioStatus" class="muted"></span>
-        </div>
-      </div>
-
-      <label for="answer" class="small-label">Skriv lydskriften</label>
-      <div class="answer-wrap">
-        <span class="slash">/</span>
-        <input id="answer" autocomplete="off" autocapitalize="off" spellcheck="false"
-               placeholder="skriv lydskriften her">
-        <span class="slash">/</span>
-      </div>
-
-      <div class="keyboard-section">
-        <div class="keyboard-title">VOKALER <span>fremre → bakre</span></div>
-        <div id="vowelKeys" class="keyboard"></div>
-      </div>
-
-      <div class="keyboard-section">
-        <div class="keyboard-title">KONSONANTER <span>klikk for å sette inn</span></div>
-        <div id="consonantKeys" class="keyboard"></div>
-      </div>
-
-      <div class="keyboard-section">
-        <div class="keyboard-title">MARKØRER <span>settes inn der markøren står</span></div>
-        <div id="markerKeys" class="keyboard"></div>
-      </div>
-
-      <div class="actions">
-        <button id="checkAnswer" class="primary large">Sjekk svar</button>
-        <button id="clearAnswer" class="secondary">Tøm</button>
-        <button id="nextExercise" class="secondary">Neste oppgave →</button>
-      </div>
-
-      <div id="feedback" class="feedback hidden"></div>
-    </section>
-
-    <section class="panel stats">
-      <div><strong id="correctCount">0</strong><span>riktige</span></div>
-      <div><strong id="attemptCount">0</strong><span>forsøk</span></div>
-      <div><strong id="accuracy">0 %</strong><span>treffsikkerhet</span></div>
-    </section>
-
-    <footer>
-      <span>Data ligger i <code>data/oppgaver.json</code>.</span>
-      <span>Progresjon lagres lokalt i nettleseren.</span>
-    </footer>
-  </main>
-
-  <script src="app.js"></script>
-</body>
-</html>
+<body><main class="app">
+  <header class="topbar"><div><h1>Lydskrift-trener</h1><p>Øv på norsk lydskrift, vokallengde, hovedtrykk og tonelag.</p></div><button id="resetProgress" class="ghost">Nullstill progresjon</button></header>
+  <section class="panel controls">
+    <div class="control-group"><label for="setSelect">Oppgavesett</label><select id="setSelect"></select></div>
+    <div class="control-group" id="checkingControls"><span class="label">Hva skal sjekkes?</span>
+      <label><input type="checkbox" id="checkLength" checked> Vokallengde</label>
+      <label><input type="checkbox" id="checkStress" checked> Hovedtrykk</label>
+      <label><input type="checkbox" id="checkTone" checked> Tonelag</label>
+    </div>
+    <div class="control-group"><span class="label">Fasit</span><label><input type="checkbox" id="showAnswer" checked> Vis fasit ved feil</label></div>
+  </section>
+  <section class="panel exercise">
+    <div class="exercise-meta"><span id="progressText">Oppgave 1</span><span id="sourceType">Skriv lydskrift</span></div>
+    <div class="word-card"><div id="promptLabel" class="small-label">Ord</div><div id="word" class="word">—</div>
+      <div class="audio-row"><button id="playWord" class="primary">▶ Spill av ord</button><span id="audioStatus" class="muted"></span></div>
+    </div>
+    <label for="answer" id="inputLabel" class="small-label">Skriv lydskriften</label>
+    <div class="answer-wrap"><span class="slash" id="leftSlash">/</span><input id="answer" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="skriv lydskriften her"><span class="slash" id="rightSlash">/</span></div>
+    <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+    <div id="keyboardArea">
+      <div class="keyboard-section"><div class="keyboard-title">VOKALER <span>fremre → bakre</span></div><div id="vowelKeys" class="keyboard"></div></div>
+      <div class="keyboard-section"><div class="keyboard-title">KONSONANTER <span>klikk for å sette inn</span></div><div id="consonantKeys" class="keyboard"></div></div>
+      <div class="keyboard-section"><div class="keyboard-title">MARKØRER <span>settes inn der markøren står</span></div><div id="markerKeys" class="keyboard"></div></div>
+    </div>
+    <div class="actions"><button id="checkAnswer" class="primary large">Sjekk svar</button><button id="clearAnswer" class="secondary">Tøm</button><button id="nextExercise" class="secondary">Neste oppgave →</button></div>
+  </section>
+  <section class="panel stats"><div><strong id="correctCount">0</strong><span>riktige</span></div><div><strong id="attemptCount">0</strong><span>forsøk</span></div><div><strong id="accuracy">0 %</strong><span>treffsikkerhet</span></div></section>
+  <footer><span>Oppgaver og fasit ligger i <code>data/oppgaver.json</code>.</span><span>Progresjon lagres lokalt i nettleseren.</span></footer>
+</main><script src="app.js"></script></body></html>

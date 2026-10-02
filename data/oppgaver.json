@@ -1,251 +1,4180 @@
 {
-  "version": 1,
+  "version": 2,
   "language": "nb",
   "notation": {
-    "vowelLength": "ː",
-    "stress": "'",
+    "vowelLength": ":",
+    "stress": "ˈ",
     "tone": [
       "1",
       "2"
     ],
-    "slashes": true
+    "slashes": false
   },
   "sets": [
     {
-      "id": "skriving-lydskrift-1",
-      "title": "Skriving av lydskrift – oppgaveark 1",
-      "description": "Eksempler hentet fra oppgavene om fonemisk transkripsjon.",
+      "id": "lesing-lydskrift-1",
+      "title": "Lesing av lydskrift – oppgaveark 1",
+      "type": "read-ipa",
+      "description": "",
       "exercises": [
         {
-          "id": "bønner",
-          "type": "write-ipa",
-          "word": "bønner",
+          "prompt": "man",
+          "answers": [
+            "mann",
+            "pronomenet man"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-001",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "aŋn",
+          "answers": [
+            "agn"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-002",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "bi:l",
+          "answers": [
+            "bil"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-003",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "ʃøːʈ",
+          "answers": [
+            "skjørt (adjektiv)"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-004",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2ike",
+          "answers": [
+            "ikke"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-005",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2fæːɖi",
+          "answers": [
+            "ferdig"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-006",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "stu:r",
+          "answers": [
+            "stor"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-007",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2æʈe",
+          "answers": [
+            "erte"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-008",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "fa:re",
+          "answers": [
+            "fare, faret"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-009",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "øːɳuŋe",
+          "answers": [
+            "ørnunge"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-010",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "ʃʉ:",
+          "answers": [
+            "sju"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-011",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2ʃɭiːtn",
+          "answers": [
+            "sliten"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-012",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "sy:v",
+          "answers": [
+            "syv"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-013",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2laːʃɳ",
+          "answers": [
+            "Larsen"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-014",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "hope",
+          "answers": [
+            "hoppe (verb), hoppet (subst.)"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-015",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "1bøner",
+          "answers": [
+            "bønder, bøner"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-016",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "kaste",
+          "answers": [
+            "kaste, kastet (subst.)"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-017",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "le1veːr",
+          "answers": [
+            "lever (verb i imperativ)"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-018",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "moːr",
+          "answers": [
+            "mår"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-019",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2stʉʃɭi",
+          "answers": [
+            "stusslig"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-020",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "ʃøʈ",
+          "answers": [
+            "skjørt (plagget)"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-021",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2joːɽete",
+          "answers": [
+            "jålete"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-022",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "çuːle",
+          "answers": [
+            "kjole"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-023",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "1dæʃom",
+          "answers": [
+            "dersom"
+          ],
+          "inputLabel": "Skriv ordet med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-1-024",
+          "type": "read-ipa"
+        }
+      ]
+    },
+    {
+      "id": "skriving-lydskrift-1",
+      "title": "Skriving av lydskrift – oppgaveark 1",
+      "type": "write-ipa",
+      "description": "Ord fra oppgaveark 1, med alternative fasiter der de er oppgitt.",
+      "exercises": [
+        {
+          "prompt": "butikk",
+          "answers": [
+            "bʉ1tik"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-001",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "perle",
+          "answers": [
+            "2pæ:ɭe"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-002",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "mange",
+          "answers": [
+            "2maŋe"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-003",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lue",
+          "answers": [
+            "2lʉ:e"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-004",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "biltur",
+          "answers": [
+            "2bi:ltʉ:r"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-005",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tjuesju",
+          "answers": [
+            "çʉe1ʃʉ:",
+            "çʉ1ʃʉ:"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-006",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "slike",
+          "answers": [
+            "2ʃli:ke"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-007",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "spennende",
+          "answers": [
+            "2spenne",
+            "spenene"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-008",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "propp",
+          "answers": [
+            "1prop"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-009",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "vanskelighet",
+          "answers": [
+            "2vansklihe:t",
+            "vanskelihe:t"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-010",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lompe",
+          "answers": [
+            "2lumpe"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-011",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fæle",
+          "answers": [
+            "2fæ:ɽe"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-012",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hatten",
+          "answers": [
+            "1hatn"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-013",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fælt",
+          "answers": [
+            "1fæ:ʈ"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-014",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "her",
+          "answers": [
+            "1hæ:r"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-015",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "surt",
+          "answers": [
+            "1sʉ:ʈ"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-016",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "deilig",
+          "answers": [
+            "2dæili"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-017",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gult",
+          "answers": [
+            "1gʉ:ʈ",
+            "1gʉ:lt"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-018",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fordel",
+          "answers": [
+            "2foɖe:l",
+            "fo1ɖe:l"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-019",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "loppekasse",
+          "answers": [
+            "2lopekase"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-020",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "forsøk",
+          "answers": [
+            "2foʃø:k",
+            "fo1ʃø:k"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-021",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "forræder",
+          "answers": [
+            "fo1re:der"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-022",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "barnesikring",
+          "answers": [
+            "2ba:ɳesikriŋ"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-023",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er nå.",
+          "answers": [
+            "deæ1ɳo:"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-024",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bønner",
           "answers": [
             "2bøner"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-025",
+          "type": "write-ipa"
         },
         {
-          "id": "bønder",
-          "type": "write-ipa",
-          "word": "bønder",
+          "prompt": "historie",
+          "answers": [
+            "hi1stu:rie"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-026",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bønder",
           "answers": [
             "1bøner"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-027",
+          "type": "write-ipa"
         },
         {
-          "id": "vannet",
-          "type": "write-ipa",
-          "word": "vannet",
+          "prompt": "kanskje",
+          "answers": [
+            "2kaɳʃe"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-028",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "vannet",
           "answers": [
             "1vane",
             "2vanet"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-029",
+          "type": "write-ipa"
         },
         {
-          "id": "hoppe",
-          "type": "write-ipa",
-          "word": "hoppe",
+          "prompt": "sjø",
+          "answers": [
+            "1ʃø:"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-030",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hoppe",
           "answers": [
             "2hope"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-031",
+          "type": "write-ipa"
         },
         {
-          "id": "hoppet",
-          "type": "write-ipa",
-          "word": "hoppet",
+          "prompt": "kronprins",
+          "answers": [
+            "1krunprins",
+            "1krumprins"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-032",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hoppet",
           "answers": [
             "1hope",
             "2hopet"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-033",
+          "type": "write-ipa"
         },
         {
-          "id": "kvinne",
-          "type": "write-ipa",
-          "word": "kvinne",
+          "prompt": "pang",
+          "answers": [
+            "1paŋ"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-034",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kvinne",
           "answers": [
             "2kvine"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-035",
+          "type": "write-ipa"
         },
         {
-          "id": "lese",
-          "type": "write-ipa",
-          "word": "lese",
+          "prompt": "ape",
+          "answers": [
+            "2a:pe"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-036",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lese",
           "answers": [
             "2le:se"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-037",
+          "type": "write-ipa"
         },
         {
-          "id": "betale",
-          "type": "write-ipa",
-          "word": "betale",
+          "prompt": "ball",
+          "answers": [
+            "1bal"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-038",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "informasjon",
+          "answers": [
+            "infoma1ʃu:n",
+            "informa1ʃu:n"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-039",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "spa",
+          "answers": [
+            "1spa:"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-040",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "betale",
           "answers": [
             "be1ta:le"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-041",
+          "type": "write-ipa"
         },
         {
-          "id": "mislike",
-          "type": "write-ipa",
-          "word": "mislike",
+          "prompt": "forventning",
+          "answers": [
+            "fo1ventniŋ",
+            "for1ventniŋ"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-042",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "skitt",
+          "answers": [
+            "1ʃit"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-043",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "mislike",
           "answers": [
             "2misli:ke"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-044",
+          "type": "write-ipa"
         },
         {
-          "id": "arkiv",
-          "type": "write-ipa",
-          "word": "arkiv",
+          "prompt": "kitt",
+          "answers": [
+            "1çit"
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-045",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "arkiv",
           "answers": [
             "ar1ki:v"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-046",
+          "type": "write-ipa"
         },
         {
-          "id": "tanke",
-          "type": "write-ipa",
-          "word": "tanke",
+          "prompt": "tanke",
           "answers": [
             "2taŋke"
-          ]
+          ],
+          "promptLabel": "Ord",
+          "inputLabel": "Skriv lydskriften",
+          "id": "skriving-lydskrift-1-047",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "slik",
+          "answers": [
+            "1ʃli:k"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-048",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er ti",
+          "answers": [
+            "dæ 1ʈi:",
+            "deæ 1ʈi:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-049",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ert",
+          "answers": [
+            "1æʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-050",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er din",
+          "answers": [
+            "dæ 1ɖi:n",
+            "deæ 1ɖi:n"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-051",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ferdig",
+          "answers": [
+            "2fæɖi",
+            "2fæ:ɖi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-052",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er nå",
+          "answers": [
+            "dæ 1ɳo:",
+            "deæ 1ɳo:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-053",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ørn",
+          "answers": [
+            "1ø:ɳ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-054",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det lar seg gjøre",
+          "answers": [
+            "delaʃæ2jø:re"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-055",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "jarl",
+          "answers": [
+            "1ja:ɭ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-056",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er lenge",
+          "answers": [
+            "dæ 2ɭeŋe",
+            "deæ 2ɭeŋe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-057",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Lars",
+          "answers": [
+            "1la:ʃ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-058",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "De er nye",
+          "answers": [
+            "diæ 2ɳy:e"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-059",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fortelle",
+          "answers": [
+            "fo1ʈele"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-060",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "De er best",
+          "answers": [
+            "diæ1best"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-061",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "forsvinne",
+          "answers": [
+            "fo1ʃvine"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-062",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er mye",
+          "answers": [
+            "dæ2my:e",
+            "deæ2my:e"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-063",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fortsette",
+          "answers": [
+            "1foʈsete",
+            "1foʈʃete"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-064",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Det er surt",
+          "answers": [
+            "dæ 1ʃʉ:ʈ",
+            "dæ 1sʉ:ʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-065",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fugl",
+          "answers": [
+            "1fʉgeɽ",
+            "1fʉ:l"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-066",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hagl",
+          "answers": [
+            "1hageɽ",
+            "1hagel"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-067",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "elleve",
+          "answers": [
+            "2elve"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "skriving-lydskrift-1-068",
+          "type": "write-ipa"
         }
       ]
     },
     {
-      "id": "trykk-og-tonem",
-      "title": "Trykk og tonem – oppgaveark 2",
-      "description": "Eksempler fra oppgavene om hovedtrykk og tonelag.",
+      "id": "setninger-lydskrift",
+      "title": "Skriving av lydskrift – setninger",
+      "type": "write-ipa",
+      "description": "Setninger fra oppgaveark 1. Mellomrom i transkripsjonen ignoreres ved retting.",
       "exercises": [
         {
-          "id": "biltur",
-          "type": "write-ipa",
-          "word": "biltur",
+          "prompt": "I dag skal vi ha om fonologi.",
           "answers": [
-            "1bi:ltʉ:r"
-          ]
+            "i1da:g ska vi ha om funulu1gi:"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-001",
+          "type": "write-ipa"
         },
         {
-          "id": "spennende",
-          "type": "write-ipa",
-          "word": "spennende",
+          "prompt": "Det er ganske vanskelig.",
+          "answers": [
+            "1de: æ 2ganske 2vanskli"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-002",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Man må lese grammatikkboka godt flere ganger.",
+          "answers": [
+            "man mo 2le:se grama1tikbu:ka 1got 2fle:re 2gaŋer"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-003",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Katrine hadde gjemt en liten sjokolade som Fredrik skulle prøve å finne.",
+          "answers": [
+            "ka1tri:ne hade 1jemt en 1li:tn ʃuku2la:de som 1fredrik skʉ 2prø:vo 2fine"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-004",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Jeg er ikke interessert i norskundervisning.",
+          "answers": [
+            "jæi 1æ:r ike intre1se:ʈ i 1noʃkʉnervi:sniŋ"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-005",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Lars hadde 27 kyllinger i kjøleskapet på kjøkkenet.",
+          "answers": [
+            "1la:ʃ hade çʉ1ʃʉ: 2çyliŋer i 2çø:leska:pe po 1çøkene"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-006",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Barna turte ikke å forlate lekeplassen.",
+          "answers": [
+            "1ba:ɳa 2tʉ:ʈike o fo1ɭa:te 2le:keplasn"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-007",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Kjersti tenkte at hun kanskje skulle kjøpe ei morsom bok.",
+          "answers": [
+            "2çæʃti 2teŋte at hʉn 2kaɳʃe skʉle 2çø:pe æi 2muʃom 1bu:k"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-008",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Sjøormer synes baconchips er kjempegodt.",
+          "answers": [
+            "2ʃø:ormer syns 1bæikenʃips ær 2çempegot"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-009",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Hvis du har definert kjennetegn for hva det vil si å nå et læringsmål, bør du la vurderingen ta utgangspunkt i disse kjennetegna.",
+          "answers": [
+            "vis dʉ 1ha:r defi1ne:ʈ 2çenetæin for va de vil 1si: o no et 2læ:riŋsmo:l 1bør dʉ la vʉ1ɖe:riŋa ta 2ʉ:tgaŋspuŋt i 2dise 2çenetæina"
+          ],
+          "inputLabel": "Skriv lydskriften for hele ytringen",
+          "promptLabel": "Setning",
+          "id": "setninger-lydskrift-010",
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "lesing-lydskrift-2",
+      "title": "Lesing av lydskrift – lengre ord og ytringer",
+      "type": "read-ipa",
+      "description": "",
+      "exercises": [
+        {
+          "prompt": "fʉ1staːʃeopheŋsforkobɽiŋer",
+          "answers": [
+            "fustasjeopphengsforkoblinger"
+          ],
+          "inputLabel": "Skriv med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-2-001",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "dʉmo2pʉse1tennedine1jens",
+          "answers": [
+            "Du må pusse tennene dine, Jens."
+          ],
+          "inputLabel": "Skriv med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-2-002",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2ike1jøːʃom2muradi2siːejens",
+          "answers": [
+            "Ikke gjør som mora di sier, Jens!"
+          ],
+          "inputLabel": "Skriv med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-2-003",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "/2høyskulestʉːdier2kreːverdisi1pliːn/ (/ʉnivæʃi1te:tstʉːdier2kreːverdisi1pliːn/)",
+          "answers": [
+            "Høyskolestudier krever disiplin. (Universitetsstudier...)"
+          ],
+          "inputLabel": "Skriv med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-2-004",
+          "type": "read-ipa"
+        },
+        {
+          "prompt": "2pe:se:enmin2brʉːkejæ1væː1ɖaːg",
+          "answers": [
+            "PC-en min bruker jeg hver dag."
+          ],
+          "inputLabel": "Skriv med vanlig rettskrivning",
+          "promptLabel": "Lydskrift",
+          "id": "lesing-lydskrift-2-005",
+          "type": "read-ipa"
+        }
+      ]
+    },
+    {
+      "id": "hovedtrykk-ord",
+      "title": "Hovedtrykk – vanlig rettskrivning",
+      "type": "stress",
+      "description": "",
+      "exercises": [
+        {
+          "prompt": "biltur",
+          "answers": [
+            "ˈbiltur"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-001",
+          "type": "stress"
+        },
+        {
+          "prompt": "tjuesju",
+          "answers": [
+            "tjueˈsju"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-002",
+          "type": "stress"
+        },
+        {
+          "prompt": "barnesikring",
+          "answers": [
+            "ˈbarnesikring"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-003",
+          "type": "stress"
+        },
+        {
+          "prompt": "spennende",
+          "answers": [
+            "ˈspennende"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-004",
+          "type": "stress"
+        },
+        {
+          "prompt": "slike",
+          "answers": [
+            "ˈslike"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-005",
+          "type": "stress"
+        },
+        {
+          "prompt": "vanskelighet",
+          "answers": [
+            "ˈvanskelighet"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-006",
+          "type": "stress"
+        },
+        {
+          "prompt": "propp",
+          "answers": [
+            "ˈpropp"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-007",
+          "type": "stress"
+        },
+        {
+          "prompt": "radioteknikk",
+          "answers": [
+            "ˈradioteknikk"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-008",
+          "type": "stress"
+        },
+        {
+          "prompt": "butikk",
+          "answers": [
+            "buˈtikk"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-009",
+          "type": "stress"
+        },
+        {
+          "prompt": "database",
+          "answers": [
+            "dataˈbase (ˈdatabase)"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-010",
+          "type": "stress"
+        },
+        {
+          "prompt": "hatten",
+          "answers": [
+            "ˈhatten"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-011",
+          "type": "stress"
+        },
+        {
+          "prompt": "kronprins",
+          "answers": [
+            "ˈkronprins"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-012",
+          "type": "stress"
+        },
+        {
+          "prompt": "fordel (subst.)",
+          "answers": [
+            "ˈfordel"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-013",
+          "type": "stress"
+        },
+        {
+          "prompt": "kronprinsesse",
+          "answers": [
+            "kronprinsˈesse"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-014",
+          "type": "stress"
+        },
+        {
+          "prompt": "fordel (verb)",
+          "answers": [
+            "forˈdel"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-015",
+          "type": "stress"
+        },
+        {
+          "prompt": "loppekasse",
+          "answers": [
+            "ˈloppekasse"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-016",
+          "type": "stress"
+        },
+        {
+          "prompt": "ubetydelighet",
+          "answers": [
+            "ubeˈtydelig"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-017",
+          "type": "stress"
+        },
+        {
+          "prompt": "forræder",
+          "answers": [
+            "forˈræder"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-018",
+          "type": "stress"
+        },
+        {
+          "prompt": "brannbil",
+          "answers": [
+            "ˈbrannbil"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-019",
+          "type": "stress"
+        },
+        {
+          "prompt": "anskaffelse",
+          "answers": [
+            "ˈanskaffelse"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-020",
+          "type": "stress"
+        },
+        {
+          "prompt": "betaling",
+          "answers": [
+            "beˈtaling"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-021",
+          "type": "stress"
+        },
+        {
+          "prompt": "teater",
+          "answers": [
+            "teˈater"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-022",
+          "type": "stress"
+        },
+        {
+          "prompt": "uhyre",
+          "answers": [
+            "ˈuhyre (uˈhyre)"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-023",
+          "type": "stress"
+        },
+        {
+          "prompt": "analyse",
+          "answers": [
+            "anaˈlyse"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-024",
+          "type": "stress"
+        },
+        {
+          "prompt": "Anne-Marit",
+          "answers": [
+            "anneˈmarit"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-025",
+          "type": "stress"
+        },
+        {
+          "prompt": "pedagogikk",
+          "answers": [
+            "pedagoˈgikk"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-026",
+          "type": "stress"
+        },
+        {
+          "prompt": "sjokolade",
+          "answers": [
+            "sjokoˈlade"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-027",
+          "type": "stress"
+        },
+        {
+          "prompt": "psykoanalyse",
+          "answers": [
+            "ˈpsykoanalyse"
+          ],
+          "inputLabel": "Marker hovedtrykket",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-ord-028",
+          "type": "stress"
+        }
+      ]
+    },
+    {
+      "id": "hovedtrykk-lydskrift",
+      "title": "Hovedtrykk – i lydskrift",
+      "type": "write-ipa",
+      "description": "",
+      "exercises": [
+        {
+          "prompt": "biltur",
+          "answers": [
+            "ˈbi:ltʉ:r"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-001",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tjuesju",
+          "answers": [
+            "çʉeˈʃʉ:",
+            "çʉˈʃʉ:"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-002",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "barnesikring",
+          "answers": [
+            "ˈba:ɳesikriŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-003",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "spennende",
+          "answers": [
+            "ˈspenne",
+            "ˈspenene"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-004",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "slike",
+          "answers": [
+            "ˈʃli:ke"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-005",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "vanskelighet",
+          "answers": [
+            "ˈvansklihe:t",
+            "ˈvanskelihe:t"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-006",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "propp",
+          "answers": [
+            "ˈprop"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-007",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "radioteknikk",
+          "answers": [
+            "ˈra:diuteknik"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-008",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "butikk",
+          "answers": [
+            "bʉˈtik"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-009",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "database",
+          "answers": [
+            "dataˈba:se",
+            "ˈda:tabase"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-010",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hatten",
+          "answers": [
+            "ˈhatn"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-011",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kronprins",
+          "answers": [
+            "ˈkrunprins",
+            "ˈkrumprins"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-012",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fordel",
+          "answers": [
+            "ˈfoɖe:l"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "wordClass": "substantiv",
+          "id": "hovedtrykk-lydskrift-013",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kronprinsesse",
+          "answers": [
+            "krunprinˈsese",
+            "krumprinˈsese"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-014",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fordel",
+          "answers": [
+            "foˈɖe:l"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "hovedtrykk-lydskrift-015",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "loppekasse",
+          "answers": [
+            "ˈlopekase"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-016",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ubetydelighet",
+          "answers": [
+            "ʉbeˈty:delighe:t"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-017",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "forræder",
+          "answers": [
+            "foˈre:der"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-018",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "brannbil",
+          "answers": [
+            "ˈbranbi:l",
+            "ˈbrambi:l"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-019",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "anskaffelse",
+          "answers": [
+            "ˈanskafelse"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-020",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "betaling",
+          "answers": [
+            "beˈta:liŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-021",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "teater",
+          "answers": [
+            "teˈa:ter"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-022",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "uhyre",
+          "answers": [
+            "ˈʉ:hyre",
+            "ʉˈhy:re"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-023",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "analyse",
+          "answers": [
+            "anaˈly:se"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-024",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Anne-Marit",
+          "answers": [
+            "aneˈma:rit"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-025",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "pedagogikk",
+          "answers": [
+            "pedaguˈgik"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-026",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sjokolade",
+          "answers": [
+            "ʃukuˈla:de"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-027",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "psykoanalyse",
+          "answers": [
+            "ˈsykoanalyse"
+          ],
+          "inputLabel": "Skriv lydskriften med hovedtrykk",
+          "promptLabel": "Ord",
+          "id": "hovedtrykk-lydskrift-028",
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "tonelag",
+      "title": "Tonelag – ord",
+      "type": "write-ipa",
+      "description": "",
+      "exercises": [
+        {
+          "prompt": "lampe",
+          "answers": [
+            "2lampe"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-001",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tjue1sju",
+          "answers": [
+            "çʉe1ʃʉ:",
+            "çʉ1ʃʉ:"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-002",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "biltur",
+          "answers": [
+            "2bi:ltʉ:r"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-003",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "spennende",
           "answers": [
             "2spenne",
             "2spenene"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-004",
+          "type": "write-ipa"
         },
         {
-          "id": "vanskelighet",
-          "type": "write-ipa",
-          "word": "vanskelighet",
+          "prompt": "barn",
+          "answers": [
+            "1ba:ɳ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-005",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "vanskelighet",
           "answers": [
             "2vansklihe:t",
             "2vanskelihe:t"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-006",
+          "type": "write-ipa"
         },
         {
-          "id": "butikk",
-          "type": "write-ipa",
-          "word": "butikk",
+          "prompt": "barnesikring",
           "answers": [
-            "bʉ1tik"
-          ]
+            "2ba:ɳesikriŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-007",
+          "type": "write-ipa"
         },
         {
-          "id": "database",
-          "type": "write-ipa",
-          "word": "database",
+          "prompt": "radioteknikk",
+          "answers": [
+            "1ra:diuteknik"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-008",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "brannbil",
+          "answers": [
+            "1branbi:l",
+            "1brambi:l"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-009",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "data2base, 1da...",
           "answers": [
             "data2ba:se",
             "1da:tabase"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-010",
+          "type": "write-ipa"
         },
         {
-          "id": "fordel-substantiv",
-          "type": "write-ipa",
-          "word": "fordel (substantiv)",
+          "prompt": "bu1tikk",
+          "answers": [
+            "bʉ1tik"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-011",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kronprins",
+          "answers": [
+            "1krunprins",
+            "1krumprins"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-012",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hatten",
+          "answers": [
+            "1hatn"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-013",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kronprin2sesse",
+          "answers": [
+            "krunprin2sese",
+            "krumprin2sese"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-014",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hattene",
+          "answers": [
+            "2hatne"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-015",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "loppekasse",
+          "answers": [
+            "2lopekase"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-016",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fordel",
           "answers": [
             "2foɖe:l"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "wordClass": "substantiv",
+          "id": "tonelag-017",
+          "type": "write-ipa"
         },
         {
-          "id": "fordel-verb",
-          "type": "write-ipa",
-          "word": "fordel (verb)",
+          "prompt": "for1ræder",
+          "answers": [
+            "fo1re:der"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-018",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "for1del",
           "answers": [
             "fo1ɖe:l"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "tonelag-019",
+          "type": "write-ipa"
         },
         {
-          "id": "betydelighet",
-          "type": "write-ipa",
-          "word": "ubetydelighet",
+          "prompt": "anskaffelse",
+          "answers": [
+            "1anskafelse"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-020",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ube1tydelighet",
           "answers": [
             "ʉbe1ty:delighe:t"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-021",
+          "type": "write-ipa"
         },
         {
-          "id": "sjokolade",
-          "type": "write-ipa",
-          "word": "sjokolade",
+          "prompt": "te1ater",
           "answers": [
-            "ʃuku2la:de"
-          ]
+            "te1a:ter"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-022",
+          "type": "write-ipa"
         },
         {
-          "id": "analyse",
-          "type": "write-ipa",
-          "word": "analyse",
+          "prompt": "betaling",
+          "answers": [
+            "be1ta:liŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-023",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ana2lyse",
           "answers": [
             "ana2ly:se"
-          ]
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-024",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "uhyre, uhyre",
+          "answers": [
+            "2ʉ:hyre",
+            "ʉ1hy:re"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-025",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ana1lytisk",
+          "answers": [
+            "ana1ly:tisk",
+            "ana1lytisk"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-026",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Anne-2Marit",
+          "answers": [
+            "ane2ma:rit"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-027",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sjoko2lade",
+          "answers": [
+            "ʃuku2la:de"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-028",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bil",
+          "answers": [
+            "1bi:l"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-029",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bilen",
+          "answers": [
+            "1bi:ln"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-030",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "far",
+          "answers": [
+            "1fa:r"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-031",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fare",
+          "answers": [
+            "2fare"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-032",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "faren",
+          "answers": [
+            "2fa:aɳ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-033",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bror",
+          "answers": [
+            "1bru:r"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-034",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "broren",
+          "answers": [
+            "2bru:uɳ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-035",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Drikk opp (melken)!",
+          "answers": [
+            "2drikop"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-036",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Ta på (frakken)!",
+          "answers": [
+            "2ta:po"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-037",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "maling",
+          "answers": [
+            "2ma:liŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-038",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "blogging",
+          "answers": [
+            "2blogiŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-039",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "shopping",
+          "answers": [
+            "1ʃopiŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-040",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "børning, 1børning (?)",
+          "answers": [
+            "2bøɳiŋ",
+            "1bøɳiŋ"
+          ],
+          "inputLabel": "Skriv lydskriften med tonelag",
+          "promptLabel": "Ord",
+          "id": "tonelag-041",
+          "type": "write-ipa"
         }
       ]
     },
     {
-      "id": "lesing-lydskrift",
-      "title": "Lesing av lydskrift",
-      "description": "Ord som du kan bruke senere til omvendt øving: lydskrift → vanlig rettskrivning.",
+      "id": "enkeltord-fonologi-3",
+      "title": "Skriving av lydskrift – oppgavehefte 3",
+      "type": "write-ipa",
+      "description": "Ord fra oppgavehefte 3.",
       "exercises": [
         {
-          "id": "butikk-lesing",
-          "type": "read-ipa",
-          "word": "butikk",
-          "ipa": "bʉ1tik"
+          "prompt": "fin",
+          "answers": [
+            "1fi:n"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-001",
+          "type": "write-ipa"
         },
         {
-          "id": "perle-lesing",
-          "type": "read-ipa",
-          "word": "perle",
-          "ipa": "2pæ:ɭe"
+          "prompt": "Finn",
+          "answers": [
+            "1fin"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-002",
+          "type": "write-ipa"
         },
         {
-          "id": "mange-lesing",
-          "type": "read-ipa",
-          "word": "mange",
-          "ipa": "2maŋe"
+          "prompt": "syl",
+          "answers": [
+            "1sy:l"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-003",
+          "type": "write-ipa"
         },
         {
-          "id": "lue-lesing",
-          "type": "read-ipa",
-          "word": "lue",
-          "ipa": "2lʉ:e"
+          "prompt": "pytt",
+          "answers": [
+            "1pyt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-004",
+          "type": "write-ipa"
         },
         {
-          "id": "hatten-lesing",
-          "type": "read-ipa",
-          "word": "hatten",
-          "ipa": "1hatn"
+          "prompt": "mur",
+          "answers": [
+            "1mʉ:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-005",
+          "type": "write-ipa"
         },
         {
-          "id": "her-lesing",
-          "type": "read-ipa",
-          "word": "her",
-          "ipa": "1hæ:r"
+          "prompt": "kutt",
+          "answers": [
+            "1kʉt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-006",
+          "type": "write-ipa"
         },
         {
-          "id": "deilig-lesing",
-          "type": "read-ipa",
-          "word": "deilig",
-          "ipa": "2dæili"
+          "prompt": "kos",
+          "answers": [
+            "1ku:s"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-007",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hos",
+          "answers": [
+            "1hus"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-008",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "pen",
+          "answers": [
+            "1pe:n"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-009",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "penn",
+          "answers": [
+            "1pen"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-010",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hør",
+          "answers": [
+            "1hø:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-011",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "søtt",
+          "answers": [
+            "1søt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-012",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hår",
+          "answers": [
+            "1ho:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-013",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fått",
+          "answers": [
+            "1fot"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-014",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sær",
+          "answers": [
+            "1sæ:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-015",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bæsj",
+          "answers": [
+            "1bæʃ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-016",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "far",
+          "answers": [
+            "1fa:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-017",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hatt",
+          "answers": [
+            "1hat"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-018",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "beat",
+          "answers": [
+            "1bi:t"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-019",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hub",
+          "answers": [
+            "1høb"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-020",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "keeper",
+          "answers": [
+            "1ki:per"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-021",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hålke",
+          "answers": [
+            "2holke"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-022",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "boomer",
+          "answers": [
+            "1bʉ:mer"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-023",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "verre",
+          "answers": [
+            "1være"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-024",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "her",
+          "answers": [
+            "1hæ:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-025",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "rap",
+          "answers": [
+            "1ræp"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-026",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "milepæl",
+          "answers": [
+            "2mi:lepe:l"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-027",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kum",
+          "answers": [
+            "1kum"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-028",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "over",
+          "answers": [
+            "1o:ver"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-029",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lunge",
+          "answers": [
+            "2luŋe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-030",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "herlig",
+          "answers": [
+            "2hæ:ɭi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-031",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bunke",
+          "answers": [
+            "2buŋke"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-032",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "oktober",
+          "answers": [
+            "ok1to:ber"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-033",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "pub",
+          "answers": [
+            "1pøb"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-034",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "træ",
+          "answers": [
+            "1tre:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "enkeltord-fonologi-3-035",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "trædd",
+          "answers": [
+            "1tred"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "enkeltord-fonologi-3-036",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "de",
+          "answers": [
+            "1di:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-037",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bag",
+          "answers": [
+            "1bæg"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-038",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "svæve",
+          "answers": [
+            "2sve:ve"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "substantiv",
+          "id": "enkeltord-fonologi-3-039",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kott",
+          "answers": [
+            "1kot"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-040",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kost",
+          "answers": [
+            "1ku:st"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "enkeltord-fonologi-3-041",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kost",
+          "answers": [
+            "1kust",
+            "1kost"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "substantiv",
+          "id": "enkeltord-fonologi-3-042",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fair",
+          "answers": [
+            "1fe:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-043",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "quiz",
+          "answers": [
+            "1kvis"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-044",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "naiv",
+          "answers": [
+            "na1i:v"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-045",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sexy",
+          "answers": [
+            "1seksi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-046",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sytten",
+          "answers": [
+            "2søtn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-047",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lei",
+          "answers": [
+            "1læi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-048",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fighte",
+          "answers": [
+            "2faite"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-049",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "seig",
+          "answers": [
+            "1sæi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-050",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kite",
+          "answers": [
+            "2kaite"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "enkeltord-fonologi-3-051",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "feil",
+          "answers": [
+            "1fæil"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-052",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "freestyle",
+          "answers": [
+            "1fri:stail"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-053",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sau",
+          "answers": [
+            "1sæʉ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-054",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "guide",
+          "answers": [
+            "1gaid"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "substantiv",
+          "id": "enkeltord-fonologi-3-055",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "haug",
+          "answers": [
+            "1haʉ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-056",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "joik",
+          "answers": [
+            "1joyk"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-057",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bauta",
+          "answers": [
+            "1baʉta"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-058",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "koie",
+          "answers": [
+            "2koye"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-059",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kai",
+          "answers": [
+            "1kai"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-060",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "foil",
+          "answers": [
+            "1foyl"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-061",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "svaie",
+          "answers": [
+            "2svaie"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-062",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "boyband",
+          "answers": [
+            "1boybæn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-063",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Thailand",
+          "answers": [
+            "1tailan"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-064",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "huie",
+          "answers": [
+            "2hʉye"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "enkeltord-fonologi-3-065",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "røys",
+          "answers": [
+            "1røys"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-066",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hoie",
+          "answers": [
+            "2huye"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "verb",
+          "id": "enkeltord-fonologi-3-067",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "køye",
+          "answers": [
+            "2køye"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-068",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tøy",
+          "answers": [
+            "1tøy"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-069",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "design",
+          "answers": [
+            "di1sain"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-070",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "seksten",
+          "answers": [
+            "1sæistn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-071",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "løgn",
+          "answers": [
+            "1løyn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-072",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "negl",
+          "answers": [
+            "1næil"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-073",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lime",
+          "answers": [
+            "1laim"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "wordClass": "substantiv",
+          "id": "enkeltord-fonologi-3-074",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "pute",
+          "answers": [
+            "2pʉ:te"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-075",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lapp",
+          "answers": [
+            "1lap"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-076",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bare",
+          "answers": [
+            "2ba:re"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-077",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "labb",
+          "answers": [
+            "1lab"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-078",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Tor",
+          "answers": [
+            "1tu:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-079",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "flått",
+          "answers": [
+            "1flot"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-080",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "dør",
+          "answers": [
+            "1dø:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-081",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "rodd",
+          "answers": [
+            "1rud"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-082",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sart",
+          "answers": [
+            "1sa:ʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-083",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fart",
+          "answers": [
+            "1faʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-084",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fordi",
+          "answers": [
+            "fo1ɖi:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-085",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "har du?",
+          "answers": [
+            "1ha:ɖʉ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-086",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kald",
+          "answers": [
+            "1kal"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-087",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lik",
+          "answers": [
+            "1li:k"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-088",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Geir",
+          "answers": [
+            "1geir"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-089",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "rugg",
+          "answers": [
+            "1rʉg"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-090",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "mat",
+          "answers": [
+            "1ma:t"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-091",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lam",
+          "answers": [
+            "1lam"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-092",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "natt",
+          "answers": [
+            "1nat"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-093",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "land",
+          "answers": [
+            "1lan"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-094",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fjerne",
+          "answers": [
+            "2fjæɳe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-095",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "horn",
+          "answers": [
+            "1hu:ɳ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-096",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "synge",
+          "answers": [
+            "2syŋe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-097",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gang",
+          "answers": [
+            "1gaŋ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-098",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fugl",
+          "answers": [
+            "1fʉ:l"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-099",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "biff",
+          "answers": [
+            "1bif"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-100",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "var",
+          "answers": [
+            "1va:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-101",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "SUV",
+          "answers": [
+            "1sʉv"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-102",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sur",
+          "answers": [
+            "1sʉ:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-103",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "stuss",
+          "answers": [
+            "1stʉs"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-104",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "skjønn",
+          "answers": [
+            "1ʃøn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-105",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hasj",
+          "answers": [
+            "1haʃ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-106",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kjønn",
+          "answers": [
+            "1çøn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-107",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bikkje",
+          "answers": [
+            "2biçe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-108",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "jern",
+          "answers": [
+            "1jæ:ɳ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-109",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "jojo",
+          "answers": [
+            "2juju"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-110",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "halv",
+          "answers": [
+            "1hal"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-111",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "behå",
+          "answers": [
+            "2be:ho:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-112",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "holde",
+          "answers": [
+            "2hole"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-113",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "jarl",
+          "answers": [
+            "1ja:ɭ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-114",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "rar",
+          "answers": [
+            "1ra:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-115",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "morr",
+          "answers": [
+            "1mor"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-116",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "delje",
+          "answers": [
+            "2dæɽje"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-117",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fæl",
+          "answers": [
+            "1fæɽ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-118",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Ibsen",
+          "answers": [
+            "1ipsn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-119",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "værelse",
+          "answers": [
+            "2væ:ɭse"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-120",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "xenofobt",
+          "answers": [
+            "senu1fu:pt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-121",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "stivt",
+          "answers": [
+            "1sti:ft"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-122",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "godt",
+          "answers": [
+            "1got"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-123",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "xylofon",
+          "answers": [
+            "sylo1fu:n"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-124",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "redsel",
+          "answers": [
+            "1retsl"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-125",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "zoologi",
+          "answers": [
+            "sulu1gi:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-126",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hardt",
+          "answers": [
+            "1haʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-127",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "celle",
+          "answers": [
+            "2sele"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-128",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "burde",
+          "answers": [
+            "2bʉʈe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-129",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sjy",
+          "answers": [
+            "1ʃy:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-130",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "fælt",
+          "answers": [
+            "1fæ:ʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-131",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "skjell",
+          "answers": [
+            "1ʃel"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-132",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gult",
+          "answers": [
+            "1gʉ: ʈ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-133",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "skøyte",
+          "answers": [
+            "2ʃøyte"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-134",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sagt",
+          "answers": [
+            "1sakt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-135",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Lars",
+          "answers": [
+            "1la:ʃ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-136",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "viktigst",
+          "answers": [
+            "1viktikst"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-137",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kurs",
+          "answers": [
+            "1kʉ:ʃ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-138",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "barndom",
+          "answers": [
+            "2ba:ɳɖom"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-139",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "slange",
+          "answers": [
+            "2ʃlaŋe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-140",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "læreren",
+          "answers": [
+            "2læ:ræɳ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-141",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "generell",
+          "answers": [
+            "ʃene1rel"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-142",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kanskje",
+          "answers": [
+            "2kaɳʃe"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-143",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ajour",
+          "answers": [
+            "a1ʃʉ:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-144",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "varmt",
+          "answers": [
+            "1vaɳʈ",
+            "1varmt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-145",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "attaché",
+          "answers": [
+            "ata1ʃe:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-146",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "morgen",
+          "answers": [
+            "2mo:oɳ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-147",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tsjekker",
+          "answers": [
+            "1ʃeker"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-148",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sagn",
+          "answers": [
+            "1saŋn"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-149",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "nysgjerrig",
+          "answers": [
+            "ny1ʃæri"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-150",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hank",
+          "answers": [
+            "1haŋk"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-151",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Mercedes",
+          "answers": [
+            "mæ1ʃe:des"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-152",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bronse",
+          "answers": [
+            "2broŋse"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-153",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "shipping",
+          "answers": [
+            "1ʃipiŋ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-154",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "entré",
+          "answers": [
+            "aŋ1tre:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-155",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "dash",
+          "answers": [
+            "1dæʃ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-156",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "interessant",
+          "answers": [
+            "intre1saŋt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-157",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tjern",
+          "answers": [
+            "1çæ:ɳ"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-158",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Huitfelt",
+          "answers": [
+            "1vitfelt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-159",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "kiste",
+          "answers": [
+            "2çiste"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-160",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gi",
+          "answers": [
+            "1ji:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-161",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "wigwam",
+          "answers": [
+            "1vigvam"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-162",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "geip",
+          "answers": [
+            "1jæip"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-163",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "pizza",
+          "answers": [
+            "1pitsa"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-164",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ion",
+          "answers": [
+            "1ju:n"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-165",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "solgt",
+          "answers": [
+            "1solkt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-166",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "vennligst",
+          "answers": [
+            "1venlikst"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-167",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Guds hus",
+          "answers": [
+            "1gʉts 1hʉ:s"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-168",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gjevt",
+          "answers": [
+            "1je:ft"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-169",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "skøy",
+          "answers": [
+            "1skøy"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-170",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "lovt",
+          "answers": [
+            "1lo:ft"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-171",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "taxi",
+          "answers": [
+            "1tæksi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-172",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "yatzy",
+          "answers": [
+            "1jatsi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-173",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bildet",
+          "answers": [
+            "2bilde"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-174",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hvit",
+          "answers": [
+            "1vi:t"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-175",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "jordet",
+          "answers": [
+            "2ju:re"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-176",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hard",
+          "answers": [
+            "1ha:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-177",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gjorde",
+          "answers": [
+            "2ju:re"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-178",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "selge",
+          "answers": [
+            "2sele"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-179",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ljore",
+          "answers": [
+            "2ju:re"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-180",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "psykologi",
+          "answers": [
+            "sykulu1gi:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-181",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "hjalt",
+          "answers": [
+            "1jalt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-182",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gav",
+          "answers": [
+            "1ga:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-183",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gjaldt",
+          "answers": [
+            "1jalt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-184",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "gjelde",
+          "answers": [
+            "2jele"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-185",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "vennlig",
+          "answers": [
+            "2venli"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-186",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ond",
+          "answers": [
+            "1un"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-187",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bad",
+          "answers": [
+            "1ba:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-188",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ondt",
+          "answers": [
+            "1unt"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-189",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "bedt",
+          "answers": [
+            "1bet"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-190",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ende",
+          "answers": [
+            "2ene"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-191",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "rennende",
+          "answers": [
+            "2renne"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-192",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "verdig",
+          "answers": [
+            "2værdi"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-193",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "England",
+          "answers": [
+            "1eŋlan"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-194",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "milde",
+          "answers": [
+            "2mile"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-195",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "ljå",
+          "answers": [
+            "1jo:"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-196",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "tolv",
+          "answers": [
+            "1tol"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-197",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Rjukan",
+          "answers": [
+            "2rʉ:kan"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-198",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "sølv",
+          "answers": [
+            "1søl"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-199",
+          "type": "write-ipa"
+        },
+        {
+          "prompt": "Bård",
+          "answers": [
+            "1bo:r"
+          ],
+          "inputLabel": "Skriv lydskriften",
+          "promptLabel": "Ord",
+          "id": "enkeltord-fonologi-3-200",
+          "type": "write-ipa"
         }
       ]
     }
+  ],
+  "notes": [
+    "Fasitene er hentet fra de opplastede oppgaveheftene. Noen oppgaver har flere mulige fasiter.",
+    "Transkripsjon, lesing av lydskrift, hovedtrykk og tonelag er lagt inn som oppgavesett.",
+    "Oppgaver om artikulasjonsbeskrivelser og fonotaks krever egne svarfelter og er ikke inkludert i disse transkripsjonssettene ennå."
   ]
 }
