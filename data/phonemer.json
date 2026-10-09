@@ -1,0 +1,38 @@
+{
+  "consonants": [
+    {"symbol":"p","manner":"Plosiv","place":"Bilabial","voicing":"Ustemt","example":"på"},
+    {"symbol":"b","manner":"Plosiv","place":"Bilabial","voicing":"Stemt","example":"båt"},
+    {"symbol":"t","manner":"Plosiv","place":"Alveolar","voicing":"Ustemt","example":"tå"},
+    {"symbol":"d","manner":"Plosiv","place":"Alveolar","voicing":"Stemt","example":"da"},
+    {"symbol":"ʈ","manner":"Plosiv","place":"Postalveolar","voicing":"Ustemt","example":"ert"},
+    {"symbol":"ɖ","manner":"Plosiv","place":"Postalveolar","voicing":"Stemt","example":"ferdig"},
+    {"symbol":"k","manner":"Plosiv","place":"Velar","voicing":"Ustemt","example":"ku"},
+    {"symbol":"g","manner":"Plosiv","place":"Velar","voicing":"Stemt","example":"gå"},
+    {"symbol":"m","manner":"Nasal","place":"Bilabial","voicing":"Stemt","example":"må"},
+    {"symbol":"n","manner":"Nasal","place":"Alveolar","voicing":"Stemt","example":"nå"},
+    {"symbol":"ɳ","manner":"Nasal","place":"Postalveolar","voicing":"Stemt","example":"barn"},
+    {"symbol":"ŋ","manner":"Nasal","place":"Velar","voicing":"Stemt","example":"sang"},
+    {"symbol":"f","manner":"Frikativ","place":"Labiodental","voicing":"Ustemt","example":"få"},
+    {"symbol":"v","manner":"Frikativ","place":"Labiodental","voicing":"Stemt","example":"vi"},
+    {"symbol":"s","manner":"Frikativ","place":"Alveolar","voicing":"Ustemt","example":"så"},
+    {"symbol":"ʃ","manner":"Frikativ","place":"Postalveolar","voicing":"Ustemt","example":"sjø"},
+    {"symbol":"ç","manner":"Frikativ","place":"Palatal","voicing":"Ustemt","example":"kjøtt"},
+    {"symbol":"j","manner":"Frikativ","place":"Palatal","voicing":"Stemt","example":"jo"},
+    {"symbol":"h","manner":"Frikativ","place":"Glottal","voicing":"Ustemt","example":"hår"},
+    {"symbol":"l","manner":"Lateral","place":"Alveolar","voicing":"Stemt","example":"ball"},
+    {"symbol":"ɭ","manner":"Lateral","place":"Postalveolar","voicing":"Stemt","example":"perle"},
+    {"symbol":"r","manner":"R-lyd","place":"Alveolar","voicing":"Stemt","example":"ro"},
+    {"symbol":"ɽ","manner":"R-lyd","place":"Postalveolar","voicing":"Stemt","example":"fæl"}
+  ],
+  "vowels": [
+    {"symbol":"i","place":"Fremre","height":"Trang","rounding":"Urundet","example":"li"},
+    {"symbol":"y","place":"Fremre","height":"Trang","rounding":"Rundet","example":"syr"},
+    {"symbol":"ʉ","place":"Sentral","height":"Trang","rounding":"Rundet","example":"mur"},
+    {"symbol":"u","place":"Bakre","height":"Trang","rounding":"Rundet","example":"mor"},
+    {"symbol":"e","place":"Fremre","height":"Midtre","rounding":"Urundet","example":"mer"},
+    {"symbol":"ø","place":"Sentral","height":"Midtre","rounding":"Rundet","example":"sør"},
+    {"symbol":"o","place":"Bakre","height":"Midtre","rounding":"Rundet","example":"mår"},
+    {"symbol":"æ","place":"Fremre","height":"Åpen","rounding":"Urundet","example":"sær"},
+    {"symbol":"a","place":"Bakre","height":"Åpen","rounding":"Urundet","example":"har"}
+  ]
+}

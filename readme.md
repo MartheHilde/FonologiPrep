@@ -1,115 +1,40 @@
 # Lydskrift-trener
 
-En liten app for øving på norsk fonemisk transkripsjon i forberedelse til fonetikkprøven ved norsk 1-7.
+En responsiv norsk øvingsapp for lydskrift, fonemoversikt og fonetikk.
 
-## Teknologi
+## Innhold
 
-- HTML
-- CSS
-- vanlig JavaScript
-- JSON-data
-- `localStorage` for enkel progresjon
-- GitHub Pages for publisering
+- **Lydskrifttrener:** oppgavene fra `data/oppgaver.json`, tilfeldig rekkefølge per runde, IPA-tastatur, fasit og valgfri kontroll av vokallengde, hovedtrykk og tonelag.
+- **Fonemoversikt:** konsonanter sortert etter artikulasjonsmåte og artikulasjonssted, samt vokaler med artikulasjonssted, åpningsgrad og runding. Trykk på et fonem for beskrivelse og eksempelord.
+- **Fonemtrening:** quiz med flervalgsoppgaver om artikulasjonsmåte, artikulasjonssted, stemthet og vokalegenskaper.
+- **Tonelag:** et eget område for begreper og studietips. Det er ikke lydlyttetrening og skal ikke forveksles med å høre tonelaget.
+- **Lokal progresjon:** forsøk, riktige svar og runde/oppgaveposisjon lagres i nettleserens `localStorage`.
+- **Mobiltilpasning og PWA-grunnlag:** responsivt grensesnitt, webmanifest og service worker for installasjon/offline-caching over HTTPS.
 
-Ingen database og ingen backend er nødvendig.
+## Kjøre lokalt
 
-## Mappestruktur
+Siden appen henter JSON-filer med `fetch`, må den åpnes via en lokal webserver, ikke ved å dobbeltklikke på `index.html`.
 
-```text
-lydskrift-trener/
-├── index.html
-├── styles.css
-├── app.js
-├── data/
-│   └── oppgaver.json
-└── audio/
-    └── (egne mp3/wav-filer)
+For eksempel med Python installert:
+
+```bash
+python -m http.server 8000
 ```
 
-## Starte lokalt
+Åpne så `http://localhost:8000` i nettleseren fra prosjektmappen.
 
-Åpne:
+## Publisere på GitHub Pages
 
-```text
-http://localhost:8000
-```
+1. Last opp alle filer og mapper til rotmappen i GitHub-repositoriet.
+2. Gå til **Settings → Pages**.
+3. Velg **Deploy from a branch**, velg `main` og `/(root)`.
+4. Lagre, og åpne GitHub Pages-adressen som vises.
 
-## Legge til en oppgave
+For PWA/offline-funksjoner må appen kjøres via HTTPS, slik GitHub Pages gjør. Service worker-cacheversjonen kan oppdateres i `sw.js` når du gjør en større endring.
 
-I `data/oppgaver.json`:
+## Endre data
 
-```json
-{
-  "id": "eksempel",
-  "type": "write-ipa",
-  "word": "eksempel",
-  "answers": ["2eksempel"]
-}
-```
+- Oppgaver og svar: `data/oppgaver.json`
+- Fonemdata og eksempelord: `data/phonemer.json`
 
-Flere fasiter kan legges inn:
-
-```json
-{
-  "id": "vannet",
-  "type": "write-ipa",
-  "word": "vannet",
-  "answers": ["1vane", "2vanet"]
-}
-```
-
-Dette er viktig fordi oppgavearkene dine faktisk har flere mulige løsninger på enkelte oppgaver.
-
-## Lyd
-
-Hvis du legger inn et opptak:
-
-```text
-audio/ord-001.mp3
-```
-
-kan oppgaven få:
-
-```json
-{
-  "id": "ord-001",
-  "type": "write-ipa",
-  "word": "sær",
-  "audio": "audio/ord-001.mp3",
-  "answers": ["1sæ:r"]
-}
-```
-
-Hvis `audio` mangler, prøver appen å bruke nettleserens norske talesyntese som fallback.
-
-For trening på tonem og naturlig tonefall bør egne opptak brukes.
-
-## Notasjon
-
-Oppgavearkene bruker blant annet:
-
-- `:` for vokallengde
-- `1` og `2` for tonelag
-- `'` for hovedtrykk i oppgaver som markerer trykk eksplisitt
-
-Appen er lagt opp slik at dette kan håndteres som separate komponenter i neste utviklingssteg.
-
-## GitHub Pages
-
-1. Opprett et GitHub-repository.
-2. Last opp filene.
-3. Gå til `Settings → Pages`.
-4. Velg deploy fra `main`-branch og `/ (root)`.
-5. Vent på deploy.
-6. Åpne GitHub Pages-adressen.
-
-## Neste utviklingssteg
-
-1. Gjør korrekturen smartere slik at trykk, tonem og lengde kan slås av/på uavhengig.
-2. Lag egen oppgavetype for `lesing av lydskrift`.
-3. Lag oppgavetype for konsonantbeskrivelse.
-4. Lag oppgavetype for vokalbeskrivelse.
-5. Legg inn fonotaksoppgavene.
-6. Lag tilfeldig oppgavevalg og filtrering.
-7. Legg inn egne lydopptak.
-8. Lag import/eksport av JSON slik at du kan redigere oppgaver uten å endre JavaScript.
+Fonemoversikten er lagt inn med utgangspunkt i oversikten som ble delt i samtalen. Kontroller gjerne symbolvalg og faglige formuleringer mot forelesningsnotatene før prøven; enkelte lærebøker kan bruke litt ulike navn på artikulasjonssteder.

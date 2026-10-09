@@ -2,10 +2,17 @@
 <html lang="no">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lydskrift-trener</title><link rel="stylesheet" href="styles.css">
+  <title>Lydskrift-trener</title><meta name="theme-color" content="#38546d"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
 </head>
 <body><main class="app">
-  <header class="topbar"><div><h1>Lydskrift-trener</h1><p>Øv på norsk lydskrift, vokallengde, hovedtrykk og tonelag.</p></div><button id="resetProgress" class="ghost">Nullstill progresjon</button></header>
+  <header class="topbar"><div><h1>Lydskrift-trener</h1><p>Øv, lær og mestre norsk fonetikk.</p></div><button id="resetProgress" class="ghost">Nullstill progresjon</button></header>
+  <nav class="main-nav" aria-label="Hovedmeny">
+    <button class="nav-button active" data-module="trainer">Lydskrifttrener</button>
+    <button class="nav-button" data-module="reference">Fonemoversikt</button>
+    <button class="nav-button" data-module="quiz">Fonemtrening</button>
+  </nav>
+  <section id="module-trainer" class="module-view">
+  
   <section class="panel controls">
     <div class="control-group"><label for="setSelect">Oppgavesett</label><select id="setSelect"></select></div>
     <div class="control-group" id="checkingControls"><span class="label">Hva skal sjekkes?</span>
@@ -29,6 +36,15 @@
       <div class="keyboard-section"><div class="keyboard-title">MARKØRER <span>settes inn der markøren står</span></div><div id="markerKeys" class="keyboard"></div></div>
     </div>
     <div class="actions"><button id="checkAnswer" class="primary large">Sjekk svar</button><button id="clearAnswer" class="secondary">Tøm</button><button id="nextExercise" class="secondary">Neste oppgave →</button></div>
+  </section>
+  </section>
+  <section id="module-reference" class="module-view hidden">
+    <section class="panel"><div class="section-heading"><div><h2>Fonemoversikt</h2><p>Trykk på et fonem for å se beskrivelsen.</p></div><div class="segmented"><button class="segment active" data-reference="consonants">Konsonanter</button><button class="segment" data-reference="vowels">Vokaler</button></div></div>
+      <div id="referenceContent"></div><div id="phonemeDetail" class="detail-card hidden" aria-live="polite"></div>
+    </section>
+  </section>
+  <section id="module-quiz" class="module-view hidden">
+    <section class="panel quiz-panel"><div class="exercise-meta"><span id="quizProgress">Fonemtrening</span><span>Velg riktig beskrivelse</span></div><div class="quiz-symbol" id="quizSymbol">/p/</div><p id="quizQuestion" class="quiz-question">Hva er artikulasjonsmåten?</p><div id="quizOptions" class="quiz-options"></div><div id="quizFeedback" class="feedback hidden" aria-live="polite"></div><div class="actions"><button id="quizCheck" class="primary large">Sjekk svar</button><button id="quizNext" class="secondary">Neste fonem →</button></div></section>
   </section>
   <section class="panel stats"><div><strong id="correctCount">0</strong><span>riktige</span></div><div><strong id="attemptCount">0</strong><span>forsøk</span></div><div><strong id="accuracy">0 %</strong><span>treffsikkerhet</span></div></section>
   <footer><span>Oppgaver og fasit ligger i <code>data/oppgaver.json</code>.</span><span>Progresjon lagres lokalt i nettleseren.</span></footer>
