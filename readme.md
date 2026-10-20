@@ -37,4 +37,4 @@ For PWA/offline-funksjoner må appen kjøres via HTTPS, slik GitHub Pages gjør.
 - Oppgaver og svar: `data/oppgaver.json`
 - Fonemdata og eksempelord: `data/phonemer.json`
 
-Fonemoversikten er lagt inn med utgangspunkt i oversikten som ble delt i samtalen. Kontroller gjerne symbolvalg og faglige formuleringer mot forelesningsnotatene før prøven; enkelte lærebøker kan bruke litt ulike navn på artikulasjonssteder.
+Fonemoversikten er lagt inn med utgangspunkt i standard østnorsk talemål, og er noe forenkelt i forhold til IPA fonemoversikten. 
