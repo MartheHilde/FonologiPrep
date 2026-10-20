@@ -7,7 +7,6 @@ En responsiv øvingsapp for norsk lydskrift, fonemoversikt og fonetikk.
 - **Lydskrifttrener:** oppgavene fra `data/oppgaver.json`, tilfeldig rekkefølge per runde, IPA-tastatur, fasit og valgfri kontroll av vokallengde, hovedtrykk og tonelag.
 - **Fonemoversikt:** konsonanter sortert etter artikulasjonsmåte og artikulasjonssted, samt vokaler med artikulasjonssted, åpningsgrad og runding. Trykk på et fonem for beskrivelse og eksempelord.
 - **Fonemtrening:** quiz med flervalgsoppgaver om artikulasjonsmåte, artikulasjonssted, stemthet og vokalegenskaper.
-- **Tonelag:** et eget område for begreper og studietips. Det er ikke lydlyttetrening og skal ikke forveksles med å høre tonelaget.
 - **Lokal progresjon:** forsøk, riktige svar og runde/oppgaveposisjon lagres i nettleserens `localStorage`.
 - **Mobiltilpasning og PWA-grunnlag:** responsivt grensesnitt, webmanifest og service worker for installasjon/offline-caching over HTTPS.
 
