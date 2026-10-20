@@ -1,6 +1,6 @@
 # Lydskrift-trener
 
-En responsiv norsk øvingsapp for lydskrift, fonemoversikt og fonetikk.
+En responsiv øvingsapp for norsk lydskrift, fonemoversikt og fonetikk.
 
 ## Innhold
 
