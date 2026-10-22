@@ -4,7 +4,10 @@
   "notation": {
     "vowelLength": ":",
     "stress": "ˈ",
-    "tone": ["1", "2"],
+    "tone": [
+      "1",
+      "2"
+    ],
     "slashes": false
   },
   "sets": [
@@ -14,174 +17,2184 @@
       "type": "write-ipa",
       "description": "Egenprodusert øvingsbank med blanding av kjente og nye ord.",
       "exercises": [
-        {"id":"001","prompt":"tak","answers":["1ta:k"],"type":"write-ipa"},
-        {"id":"002","prompt":"takk","answers":["1tak"],"type":"write-ipa"},
-        {"id":"003","prompt":"fin","answers":["1fi:n"],"type":"write-ipa"},
-        {"id":"004","prompt":"Finn","answers":["1fin"],"type":"write-ipa"},
-        {"id":"005","prompt":"mus","answers":["1mʉ:s"],"type":"write-ipa"},
-        {"id":"006","prompt":"buss","answers":["1bʉs"],"type":"write-ipa"},
-        {"id":"007","prompt":"pen","answers":["1pe:n"],"type":"write-ipa"},
-        {"id":"008","prompt":"penn","answers":["1pen"],"type":"write-ipa"},
-        {"id":"009","prompt":"mur","answers":["1mʉ:r"],"type":"write-ipa"},
-        {"id":"010","prompt":"kutt","answers":["1kʉt"],"type":"write-ipa"},
-
-        {"id":"011","prompt":"sær","answers":["1sæ:r"],"type":"write-ipa"},
-        {"id":"012","prompt":"bæsj","answers":["1bæʃ"],"type":"write-ipa"},
-        {"id":"013","prompt":"far","answers":["1fa:r"],"type":"write-ipa"},
-        {"id":"014","prompt":"hatt","answers":["1hat"],"type":"write-ipa"},
-        {"id":"015","prompt":"hør","answers":["1hø:r"],"type":"write-ipa"},
-        {"id":"016","prompt":"søtt","answers":["1søt"],"type":"write-ipa"},
-        {"id":"017","prompt":"hår","answers":["1ho:r"],"type":"write-ipa"},
-        {"id":"018","prompt":"fått","answers":["1fot"],"type":"write-ipa"},
-        {"id":"019","prompt":"lik","answers":["1li:k"],"type":"write-ipa"},
-        {"id":"020","prompt":"lukk","answers":["1luk"],"type":"write-ipa"},
-
-        {"id":"021","prompt":"sur","answers":["1sʉ:r"],"type":"write-ipa"},
-        {"id":"022","prompt":"surt","answers":["1sʉ:ʈ"],"type":"write-ipa"},
-        {"id":"023","prompt":"mat","answers":["1ma:t"],"type":"write-ipa"},
-        {"id":"024","prompt":"natt","answers":["1nat"],"type":"write-ipa"},
-        {"id":"025","prompt":"dør","answers":["1dø:r"],"type":"write-ipa"},
-
-        {"id":"026","prompt":"skjønn","answers":["1ʃøn"],"type":"write-ipa"},
-        {"id":"027","prompt":"kjønn","answers":["1çøn"],"type":"write-ipa"},
-        {"id":"028","prompt":"skjell","answers":["1ʃel"],"type":"write-ipa"},
-        {"id":"029","prompt":"kjell","answers":["1çel"],"type":"write-ipa"},
-        {"id":"030","prompt":"skjorte","answers":["2ʃoʈe"],"type":"write-ipa"},
-        {"id":"031","prompt":"kjole","answers":["2çu:le"],"type":"write-ipa"},
-        {"id":"032","prompt":"ski","answers":["1ʃi:"],"type":"write-ipa"},
-        {"id":"033","prompt":"kino","answers":["2çi:nu"],"type":"write-ipa"},
-        {"id":"034","prompt":"skinne","answers":["2ʃine"],"type":"write-ipa"},
-        {"id":"035","prompt":"kinn","answers":["1çin"],"type":"write-ipa"},
-
-        {"id":"036","prompt":"skjære","answers":["2ʃæ:re"],"type":"write-ipa"},
-        {"id":"037","prompt":"kjære","answers":["2çæ:re"],"type":"write-ipa"},
-        {"id":"038","prompt":"skinke","answers":["2ʃiŋke"],"type":"write-ipa"},
-        {"id":"039","prompt":"kikke","answers":["2çike"],"type":"write-ipa"},
-        {"id":"040","prompt":"skje","answers":["1ʃe:"],"type":"write-ipa"},
-        {"id":"041","prompt":"kje","answers":["1çe:"],"type":"write-ipa"},
-        {"id":"042","prompt":"sjåfør","answers":["2ʃofø:r"],"type":"write-ipa"},
-        {"id":"043","prompt":"kjøpe","answers":["2çø:pe"],"type":"write-ipa"},
-        {"id":"044","prompt":"sjy","answers":["1ʃy:"],"type":"write-ipa"},
-        {"id":"045","prompt":"kiste","answers":["2çiste"],"type":"write-ipa"},
-
-        {"id":"046","prompt":"sang","answers":["1saŋ"],"type":"write-ipa"},
-        {"id":"047","prompt":"synge","answers":["2syŋe"],"type":"write-ipa"},
-        {"id":"048","prompt":"lang","answers":["1laŋ"],"type":"write-ipa"},
-        {"id":"049","prompt":"lange","answers":["2laŋe"],"type":"write-ipa"},
-        {"id":"050","prompt":"ring","answers":["1riŋ"],"type":"write-ipa"},
-        {"id":"051","prompt":"ting","answers":["1tiŋ"],"type":"write-ipa"},
-        {"id":"052","prompt":"bank","answers":["1baŋk"],"type":"write-ipa"},
-        {"id":"053","prompt":"tenke","answers":["2teŋke"],"type":"write-ipa"},
-        {"id":"054","prompt":"anke","answers":["2aŋke"],"type":"write-ipa"},
-        {"id":"055","prompt":"tanke","answers":["2taŋke"],"type":"write-ipa"},
-
-        {"id":"056","prompt":"lunge","answers":["2luŋe"],"type":"write-ipa"},
-        {"id":"057","prompt":"bunke","answers":["2buŋke"],"type":"write-ipa"},
-        {"id":"058","prompt":"gang","answers":["1gaŋ"],"type":"write-ipa"},
-        {"id":"059","prompt":"heng","answers":["1heŋ"],"type":"write-ipa"},
-        {"id":"060","prompt":"henge","answers":["2heŋe"],"type":"write-ipa"},
-
-        {"id":"061","prompt":"barn","answers":["1ba:ɳ"],"type":"write-ipa"},
-        {"id":"062","prompt":"jern","answers":["1jæ:ɳ"],"type":"write-ipa"},
-        {"id":"063","prompt":"horn","answers":["1hu:ɳ"],"type":"write-ipa"},
-        {"id":"064","prompt":"tårn","answers":["1to:ɳ"],"type":"write-ipa"},
-        {"id":"065","prompt":"farlig","answers":["2fa:ɭi"],"type":"write-ipa"},
-        {"id":"066","prompt":"herlig","answers":["2hæ:ɭi"],"type":"write-ipa"},
-        {"id":"067","prompt":"perle","answers":["2pæ:ɭe"],"type":"write-ipa"},
-        {"id":"068","prompt":"jarl","answers":["1ja:ɭ"],"type":"write-ipa"},
-        {"id":"069","prompt":"fortelle","answers":["fo1ʈele"],"type":"write-ipa"},
-        {"id":"070","prompt":"fortsette","answers":["1foʈsete"],"type":"write-ipa"},
-
-        {"id":"071","prompt":"kjørt","answers":["1çø:ʈ"],"type":"write-ipa"},
-        {"id":"072","prompt":"kart","answers":["1ka:ʈ"],"type":"write-ipa"},
-        {"id":"073","prompt":"hardt","answers":["1haʈ"],"type":"write-ipa"},
-        {"id":"074","prompt":"sart","answers":["1sa:ʈ"],"type":"write-ipa"},
-        {"id":"075","prompt":"fart","answers":["1faʈ"],"type":"write-ipa"},
-        {"id":"076","prompt":"verden","answers":["1væɖen"],"type":"write-ipa"},
-        {"id":"077","prompt":"nord","answers":["1nu:ɖ"],"type":"write-ipa"},
-        {"id":"078","prompt":"bord","answers":["1bu:ɖ"],"type":"write-ipa"},
-        {"id":"079","prompt":"barnet","answers":["2ba:ɳe"],"type":"write-ipa"},
-        {"id":"080","prompt":"stjerne","answers":["2stæɳe"],"type":"write-ipa"},
-
-        {"id":"081","prompt":"bjørn","answers":["1bjø:ɳ"],"type":"write-ipa"},
-        {"id":"082","prompt":"garn","answers":["1ga:ɳ"],"type":"write-ipa"},
-        {"id":"083","prompt":"fjerne","answers":["2fjæɳe"],"type":"write-ipa"},
-        {"id":"084","prompt":"læreren","answers":["2læ:ræɳ"],"type":"write-ipa"},
-        {"id":"085","prompt":"barndom","answers":["2ba:ɳɖom"],"type":"write-ipa"},
-
-        {"id":"086","prompt":"sau","answers":["1sæʉ"],"type":"write-ipa"},
-        {"id":"087","prompt":"stein","answers":["1stæin"],"type":"write-ipa"},
-        {"id":"088","prompt":"feil","answers":["1fæil"],"type":"write-ipa"},
-        {"id":"089","prompt":"kai","answers":["1kai"],"type":"write-ipa"},
-        {"id":"090","prompt":"sei","answers":["1sæi"],"type":"write-ipa"},
-        {"id":"091","prompt":"høy","answers":["1høy"],"type":"write-ipa"},
-        {"id":"092","prompt":"løgn","answers":["1løyn"],"type":"write-ipa"},
-        {"id":"093","prompt":"røys","answers":["1røys"],"type":"write-ipa"},
-        {"id":"094","prompt":"koie","answers":["2koye"],"type":"write-ipa"},
-        {"id":"095","prompt":"køye","answers":["2køye"],"type":"write-ipa"},
-
-        {"id":"096","prompt":"guide","answers":["1gaid"],"type":"write-ipa"},
-        {"id":"097","prompt":"naiv","answers":["na1i:v"],"type":"write-ipa"},
-        {"id":"098","prompt":"fighte","answers":["2faite"],"type":"write-ipa"},
-        {"id":"099","prompt":"design","answers":["di1sain"],"type":"write-ipa"},
-        {"id":"100","prompt":"Thailand","answers":["1tailan"],"type":"write-ipa"},
-
-        {"id":"101","prompt":"joik","answers":["1joyk"],"type":"write-ipa"},
-        {"id":"102","prompt":"bauta","answers":["1baʉta"],"type":"write-ipa"},
-        {"id":"103","prompt":"foil","answers":["1foyl"],"type":"write-ipa"},
-        {"id":"104","prompt":"svaie","answers":["2svaie"],"type":"write-ipa"},
-        {"id":"105","prompt":"seig","answers":["1sæi"],"type":"write-ipa"},
-
-        {"id":"106","prompt":"kanskje","answers":["2kaɳʃe"],"type":"write-ipa"},
-        {"id":"107","prompt":"vennlig","answers":["2venli"],"type":"write-ipa"},
-        {"id":"108","prompt":"vennligst","answers":["1venlikst"],"type":"write-ipa"},
-        {"id":"109","prompt":"rennende","answers":["2renne"],"type":"write-ipa"},
-        {"id":"110","prompt":"ende","answers":["2ene"],"type":"write-ipa"},
-        {"id":"111","prompt":"bildet","answers":["2bilde"],"type":"write-ipa"},
-        {"id":"112","prompt":"jordet","answers":["2ju:re"],"type":"write-ipa"},
-        {"id":"113","prompt":"gjorde","answers":["2ju:re"],"type":"write-ipa"},
-        {"id":"114","prompt":"holde","answers":["2hole"],"type":"write-ipa"},
-        {"id":"115","prompt":"selge","answers":["2sele"],"type":"write-ipa"},
-
-        {"id":"116","prompt":"milde","answers":["2mile"],"type":"write-ipa"},
-        {"id":"117","prompt":"tolv","answers":["1tol"],"type":"write-ipa"},
-        {"id":"118","prompt":"kald","answers":["1kal"],"type":"write-ipa"},
-        {"id":"119","prompt":"halv","answers":["1hal"],"type":"write-ipa"},
-        {"id":"120","prompt":"sølv","answers":["1søl"],"type":"write-ipa"},
-
-        {"id":"121","prompt":"quiz","answers":["1kvis"],"type":"write-ipa"},
-        {"id":"122","prompt":"keeper","answers":["1ki:per"],"type":"write-ipa"},
-        {"id":"123","prompt":"boomer","answers":["1bʉ:mer"],"type":"write-ipa"},
-        {"id":"124","prompt":"hub","answers":["1høb"],"type":"write-ipa"},
-        {"id":"125","prompt":"pub","answers":["1pøb"],"type":"write-ipa"},
-        {"id":"126","prompt":"taxi","answers":["1tæksi"],"type":"write-ipa"},
-        {"id":"127","prompt":"yatzy","answers":["1jatsi"],"type":"write-ipa"},
-        {"id":"128","prompt":"pizza","answers":["1pitsa"],"type":"write-ipa"},
-        {"id":"129","prompt":"sexy","answers":["1seksi"],"type":"write-ipa"},
-        {"id":"130","prompt":"shipping","answers":["1ʃipiŋ"],"type":"write-ipa"},
-
-        {"id":"131","prompt":"Mercedes","answers":["mæ1ʃe:des"],"type":"write-ipa"},
-        {"id":"132","prompt":"freestyle","answers":["1fri:stail"],"type":"write-ipa"},
-        {"id":"133","prompt":"beat","answers":["1bi:t"],"type":"write-ipa"},
-        {"id":"134","prompt":"dash","answers":["1dæʃ"],"type":"write-ipa"},
-        {"id":"135","prompt":"SUV","answers":["1sʉv"],"type":"write-ipa"},
-
-        {"id":"136","prompt":"bønder","answers":["1bøner"],"type":"write-ipa"},
-        {"id":"137","prompt":"bønner","answers":["2bøner"],"type":"write-ipa"},
-        {"id":"138","prompt":"vannet","answers":["1vane"],"type":"write-ipa"},
-        {"id":"139","prompt":"hoppet","answers":["1hope"],"type":"write-ipa"},
-        {"id":"140","prompt":"hopper","answers":["2hoper"],"type":"write-ipa"},
-        {"id":"141","prompt":"lærer","answers":["2læ:rer"],"type":"write-ipa"},
-        {"id":"142","prompt":"tanker","answers":["2taŋker"],"type":"write-ipa"},
-        {"id":"143","prompt":"tanken","answers":["2taŋken"],"type":"write-ipa"},
-        {"id":"144","prompt":"sanger","answers":["2saŋer"],"type":"write-ipa"},
-        {"id":"145","prompt":"sangen","answers":["2saŋen"],"type":"write-ipa"},
-
-        {"id":"146","prompt":"huset","answers":["2hʉ:set"],"type":"write-ipa"},
-        {"id":"147","prompt":"butikk","answers":["bʉ1tik"],"type":"write-ipa"},
-        {"id":"148","prompt":"historie","answers":["hi1stu:rie"],"type":"write-ipa"},
-        {"id":"149","prompt":"slange","answers":["2ʃlaŋe"],"type":"write-ipa"},
-        {"id":"150","prompt":"fugl","answers":["1fʉ:l"],"type":"write-ipa"}
+        {
+          "id": "001",
+          "prompt": "tak",
+          "answers": [
+            "1ta:k"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "002",
+          "prompt": "takk",
+          "answers": [
+            "1tak"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "003",
+          "prompt": "fin",
+          "answers": [
+            "1fi:n"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "004",
+          "prompt": "Finn",
+          "answers": [
+            "1fin"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "005",
+          "prompt": "mus",
+          "answers": [
+            "1mʉ:s"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "006",
+          "prompt": "buss",
+          "answers": [
+            "1bʉs"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "007",
+          "prompt": "pen",
+          "answers": [
+            "1pe:n"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "008",
+          "prompt": "penn",
+          "answers": [
+            "1pen"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "009",
+          "prompt": "mur",
+          "answers": [
+            "1mʉ:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "010",
+          "prompt": "kutt",
+          "answers": [
+            "1kʉt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "011",
+          "prompt": "sær",
+          "answers": [
+            "1sæ:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "012",
+          "prompt": "bæsj",
+          "answers": [
+            "1bæʃ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "013",
+          "prompt": "far",
+          "answers": [
+            "1fa:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "014",
+          "prompt": "hatt",
+          "answers": [
+            "1hat"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "015",
+          "prompt": "hør",
+          "answers": [
+            "1hø:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "016",
+          "prompt": "søtt",
+          "answers": [
+            "1søt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "017",
+          "prompt": "hår",
+          "answers": [
+            "1ho:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "018",
+          "prompt": "fått",
+          "answers": [
+            "1fot"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "019",
+          "prompt": "lik",
+          "answers": [
+            "1li:k"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "020",
+          "prompt": "lukk",
+          "answers": [
+            "1luk"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "021",
+          "prompt": "sur",
+          "answers": [
+            "1sʉ:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "022",
+          "prompt": "surt",
+          "answers": [
+            "1sʉ:ʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "023",
+          "prompt": "mat",
+          "answers": [
+            "1ma:t"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "024",
+          "prompt": "natt",
+          "answers": [
+            "1nat"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "025",
+          "prompt": "dør",
+          "answers": [
+            "1dø:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "026",
+          "prompt": "skjønn",
+          "answers": [
+            "1ʃøn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "027",
+          "prompt": "kjønn",
+          "answers": [
+            "1çøn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "028",
+          "prompt": "skjell",
+          "answers": [
+            "1ʃel"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "029",
+          "prompt": "kjell",
+          "answers": [
+            "1çel"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "030",
+          "prompt": "skjorte",
+          "answers": [
+            "2ʃoʈe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "031",
+          "prompt": "kjole",
+          "answers": [
+            "2çu:le"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "032",
+          "prompt": "ski",
+          "answers": [
+            "1ʃi:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "033",
+          "prompt": "kino",
+          "answers": [
+            "2çi:nu"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "034",
+          "prompt": "skinne",
+          "answers": [
+            "2ʃine"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "035",
+          "prompt": "kinn",
+          "answers": [
+            "1çin"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "036",
+          "prompt": "skjære",
+          "answers": [
+            "2ʃæ:re"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "037",
+          "prompt": "kjære",
+          "answers": [
+            "2çæ:re"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "038",
+          "prompt": "skinke",
+          "answers": [
+            "2ʃiŋke"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "039",
+          "prompt": "kikke",
+          "answers": [
+            "2çike"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "040",
+          "prompt": "skje",
+          "answers": [
+            "1ʃe:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "041",
+          "prompt": "kje",
+          "answers": [
+            "1çe:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "042",
+          "prompt": "sjåfør",
+          "answers": [
+            "2ʃofø:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "043",
+          "prompt": "kjøpe",
+          "answers": [
+            "2çø:pe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "044",
+          "prompt": "sjy",
+          "answers": [
+            "1ʃy:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "045",
+          "prompt": "kiste",
+          "answers": [
+            "2çiste"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "046",
+          "prompt": "sang",
+          "answers": [
+            "1saŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "047",
+          "prompt": "synge",
+          "answers": [
+            "2syŋe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "048",
+          "prompt": "lang",
+          "answers": [
+            "1laŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "049",
+          "prompt": "lange",
+          "answers": [
+            "2laŋe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "050",
+          "prompt": "ring",
+          "answers": [
+            "1riŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "051",
+          "prompt": "ting",
+          "answers": [
+            "1tiŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "052",
+          "prompt": "bank",
+          "answers": [
+            "1baŋk"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "053",
+          "prompt": "tenke",
+          "answers": [
+            "2teŋke"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "054",
+          "prompt": "anke",
+          "answers": [
+            "2aŋke"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "055",
+          "prompt": "tanke",
+          "answers": [
+            "2taŋke"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "056",
+          "prompt": "lunge",
+          "answers": [
+            "2luŋe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "057",
+          "prompt": "bunke",
+          "answers": [
+            "2buŋke"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "058",
+          "prompt": "gang",
+          "answers": [
+            "1gaŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "059",
+          "prompt": "heng",
+          "answers": [
+            "1heŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "060",
+          "prompt": "henge",
+          "answers": [
+            "2heŋe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "061",
+          "prompt": "barn",
+          "answers": [
+            "1ba:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "062",
+          "prompt": "jern",
+          "answers": [
+            "1jæ:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "063",
+          "prompt": "horn",
+          "answers": [
+            "1hu:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "064",
+          "prompt": "tårn",
+          "answers": [
+            "1to:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "065",
+          "prompt": "farlig",
+          "answers": [
+            "2fa:ɭi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "066",
+          "prompt": "herlig",
+          "answers": [
+            "2hæ:ɭi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "067",
+          "prompt": "perle",
+          "answers": [
+            "2pæ:ɭe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "068",
+          "prompt": "jarl",
+          "answers": [
+            "1ja:ɭ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "069",
+          "prompt": "fortelle",
+          "answers": [
+            "fo1ʈele"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "070",
+          "prompt": "fortsette",
+          "answers": [
+            "1foʈsete"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "071",
+          "prompt": "kjørt",
+          "answers": [
+            "1çø:ʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "072",
+          "prompt": "kart",
+          "answers": [
+            "1ka:ʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "073",
+          "prompt": "hardt",
+          "answers": [
+            "1haʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "074",
+          "prompt": "sart",
+          "answers": [
+            "1sa:ʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "075",
+          "prompt": "fart",
+          "answers": [
+            "1faʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "076",
+          "prompt": "verden",
+          "answers": [
+            "1væɖen"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "077",
+          "prompt": "nord",
+          "answers": [
+            "1nu:ɖ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "078",
+          "prompt": "bord",
+          "answers": [
+            "1bu:ɖ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "079",
+          "prompt": "barnet",
+          "answers": [
+            "2ba:ɳe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "080",
+          "prompt": "stjerne",
+          "answers": [
+            "2stæɳe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "081",
+          "prompt": "bjørn",
+          "answers": [
+            "1bjø:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "082",
+          "prompt": "garn",
+          "answers": [
+            "1ga:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "083",
+          "prompt": "fjerne",
+          "answers": [
+            "2fjæɳe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "084",
+          "prompt": "læreren",
+          "answers": [
+            "2læ:ræɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "085",
+          "prompt": "barndom",
+          "answers": [
+            "2ba:ɳɖom"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "086",
+          "prompt": "sau",
+          "answers": [
+            "1sæʉ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "087",
+          "prompt": "stein",
+          "answers": [
+            "1stæin"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "088",
+          "prompt": "feil",
+          "answers": [
+            "1fæil"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "089",
+          "prompt": "kai",
+          "answers": [
+            "1kai"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "090",
+          "prompt": "sei",
+          "answers": [
+            "1sæi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "091",
+          "prompt": "høy",
+          "answers": [
+            "1høy"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "092",
+          "prompt": "løgn",
+          "answers": [
+            "1løyn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "093",
+          "prompt": "røys",
+          "answers": [
+            "1røys"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "094",
+          "prompt": "koie",
+          "answers": [
+            "2koye"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "095",
+          "prompt": "køye",
+          "answers": [
+            "2køye"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "096",
+          "prompt": "guide",
+          "answers": [
+            "1gaid"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "097",
+          "prompt": "naiv",
+          "answers": [
+            "na1i:v"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "098",
+          "prompt": "fighte",
+          "answers": [
+            "2faite"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "099",
+          "prompt": "design",
+          "answers": [
+            "di1sain"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "100",
+          "prompt": "Thailand",
+          "answers": [
+            "1tailan"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "101",
+          "prompt": "joik",
+          "answers": [
+            "1joyk"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "102",
+          "prompt": "bauta",
+          "answers": [
+            "1baʉta"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "103",
+          "prompt": "foil",
+          "answers": [
+            "1foyl"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "104",
+          "prompt": "svaie",
+          "answers": [
+            "2svaie"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "105",
+          "prompt": "seig",
+          "answers": [
+            "1sæi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "106",
+          "prompt": "kanskje",
+          "answers": [
+            "2kaɳʃe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "107",
+          "prompt": "vennlig",
+          "answers": [
+            "2venli"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "108",
+          "prompt": "vennligst",
+          "answers": [
+            "1venlikst"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "109",
+          "prompt": "rennende",
+          "answers": [
+            "2renne"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "110",
+          "prompt": "ende",
+          "answers": [
+            "2ene"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "111",
+          "prompt": "bildet",
+          "answers": [
+            "2bilde"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "112",
+          "prompt": "jordet",
+          "answers": [
+            "2ju:re"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "113",
+          "prompt": "gjorde",
+          "answers": [
+            "2ju:re"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "114",
+          "prompt": "holde",
+          "answers": [
+            "2hole"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "115",
+          "prompt": "selge",
+          "answers": [
+            "2sele"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "116",
+          "prompt": "milde",
+          "answers": [
+            "2mile"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "117",
+          "prompt": "tolv",
+          "answers": [
+            "1tol"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "118",
+          "prompt": "kald",
+          "answers": [
+            "1kal"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "119",
+          "prompt": "halv",
+          "answers": [
+            "1hal"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "120",
+          "prompt": "sølv",
+          "answers": [
+            "1søl"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "121",
+          "prompt": "quiz",
+          "answers": [
+            "1kvis"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "122",
+          "prompt": "keeper",
+          "answers": [
+            "1ki:per"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "123",
+          "prompt": "boomer",
+          "answers": [
+            "1bʉ:mer"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "124",
+          "prompt": "hub",
+          "answers": [
+            "1høb"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "125",
+          "prompt": "pub",
+          "answers": [
+            "1pøb"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "126",
+          "prompt": "taxi",
+          "answers": [
+            "1tæksi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "127",
+          "prompt": "yatzy",
+          "answers": [
+            "1jatsi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "128",
+          "prompt": "pizza",
+          "answers": [
+            "1pitsa"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "129",
+          "prompt": "sexy",
+          "answers": [
+            "1seksi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "130",
+          "prompt": "shipping",
+          "answers": [
+            "1ʃipiŋ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "131",
+          "prompt": "Mercedes",
+          "answers": [
+            "mæ1ʃe:des"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "132",
+          "prompt": "freestyle",
+          "answers": [
+            "1fri:stail"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "133",
+          "prompt": "beat",
+          "answers": [
+            "1bi:t"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "134",
+          "prompt": "dash",
+          "answers": [
+            "1dæʃ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "135",
+          "prompt": "SUV",
+          "answers": [
+            "1sʉv"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "136",
+          "prompt": "bønder",
+          "answers": [
+            "1bøner"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "137",
+          "prompt": "bønner",
+          "answers": [
+            "2bøner"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "138",
+          "prompt": "vannet",
+          "answers": [
+            "1vane"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "139",
+          "prompt": "hoppet",
+          "answers": [
+            "1hope"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "140",
+          "prompt": "hopper",
+          "answers": [
+            "2hoper"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "141",
+          "prompt": "lærer",
+          "answers": [
+            "2læ:rer"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "142",
+          "prompt": "tanker",
+          "answers": [
+            "2taŋker"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "143",
+          "prompt": "tanken",
+          "answers": [
+            "2taŋken"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "144",
+          "prompt": "sanger",
+          "answers": [
+            "2saŋer"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "145",
+          "prompt": "sangen",
+          "answers": [
+            "2saŋen"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "146",
+          "prompt": "huset",
+          "answers": [
+            "2hʉ:set"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "147",
+          "prompt": "butikk",
+          "answers": [
+            "bʉ1tik"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "148",
+          "prompt": "historie",
+          "answers": [
+            "hi1stu:rie"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "149",
+          "prompt": "slange",
+          "answers": [
+            "2ʃlaŋe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "150",
+          "prompt": "fugl",
+          "answers": [
+            "1fʉ:l"
+          ],
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "fasit-1",
+      "title": "Enkeltvokaler – lange og korte",
+      "type": "write-ipa",
+      "description": "Oppgaver hentet fra fasitdokumentet, gruppert etter kategorien «Enkeltvokaler – lange og korte».",
+      "exercises": [
+        {
+          "id": "151",
+          "prompt": "syl",
+          "answers": [
+            "1sy:l"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "152",
+          "prompt": "pytt",
+          "answers": [
+            "1pyt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "153",
+          "prompt": "kos",
+          "answers": [
+            "1ku:s"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "154",
+          "prompt": "hos",
+          "answers": [
+            "1hus"
+          ],
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "fasit-2",
+      "title": "Enkeltvokaler – med eller uten samsvar med skrivemåte",
+      "type": "write-ipa",
+      "description": "Oppgaver hentet fra fasitdokumentet, gruppert etter kategorien «Enkeltvokaler – med eller uten samsvar med skrivemåte».",
+      "exercises": [
+        {
+          "id": "155",
+          "prompt": "hålke",
+          "answers": [
+            "2holke"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "156",
+          "prompt": "verre",
+          "answers": [
+            "1være"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "157",
+          "prompt": "her",
+          "answers": [
+            "1hæ:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "158",
+          "prompt": "rap (mus.)",
+          "answers": [
+            "1ræp"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "159",
+          "prompt": "milepæl",
+          "answers": [
+            "2mi:lepe:l"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "160",
+          "prompt": "kum",
+          "answers": [
+            "1kum"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "161",
+          "prompt": "over",
+          "answers": [
+            "1o:ver"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "162",
+          "prompt": "oktober",
+          "answers": [
+            "ok1to:ber"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "163",
+          "prompt": "træ (v.)",
+          "answers": [
+            "1tre:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "164",
+          "prompt": "trædd (v.)",
+          "answers": [
+            "1tred"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "165",
+          "prompt": "de",
+          "answers": [
+            "1di:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "166",
+          "prompt": "bag",
+          "answers": [
+            "1bæg"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "167",
+          "prompt": "svæve (s.)",
+          "answers": [
+            "2sve:ve"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "168",
+          "prompt": "kott",
+          "answers": [
+            "1kot"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "169",
+          "prompt": "kost (v.)",
+          "answers": [
+            "1ku:st"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "170",
+          "prompt": "kost (s.)",
+          "answers": [
+            "1kust",
+            "1kost"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "171",
+          "prompt": "fair",
+          "answers": [
+            "1fe:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "172",
+          "prompt": "sytten",
+          "answers": [
+            "2søtn"
+          ],
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "fasit-3",
+      "title": "Diftonger",
+      "type": "write-ipa",
+      "description": "Oppgaver hentet fra fasitdokumentet, gruppert etter kategorien «Diftonger».",
+      "exercises": [
+        {
+          "id": "173",
+          "prompt": "lei",
+          "answers": [
+            "1læi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "174",
+          "prompt": "kite (v.)",
+          "answers": [
+            "2kaite"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "175",
+          "prompt": "guide (s.)",
+          "answers": [
+            "1gaid"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "176",
+          "prompt": "haug",
+          "answers": [
+            "1haʉ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "177",
+          "prompt": "boyband",
+          "answers": [
+            "1boybæn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "178",
+          "prompt": "huie (v.)",
+          "answers": [
+            "2hʉye"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "179",
+          "prompt": "hoie (v.)",
+          "answers": [
+            "2huye"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "180",
+          "prompt": "tape (s.)",
+          "answers": [
+            "1tæip/"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "181",
+          "prompt": "tøy",
+          "answers": [
+            "1tøy"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "182",
+          "prompt": "mail",
+          "answers": [
+            "1meil/"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "183",
+          "prompt": "seksten",
+          "answers": [
+            "1sæistn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "184",
+          "prompt": "negl",
+          "answers": [
+            "1næil"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "185",
+          "prompt": "lime (s.)",
+          "answers": [
+            "1laim"
+          ],
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "fasit-4",
+      "title": "Enkeltkonsonanter",
+      "type": "write-ipa",
+      "description": "Oppgaver hentet fra fasitdokumentet, gruppert etter kategorien «Enkeltkonsonanter».",
+      "exercises": [
+        {
+          "id": "186",
+          "prompt": "pute",
+          "answers": [
+            "2pʉ:te"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "187",
+          "prompt": "lapp",
+          "answers": [
+            "1lap"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "188",
+          "prompt": "bare",
+          "answers": [
+            "2ba:re"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "189",
+          "prompt": "labb",
+          "answers": [
+            "1lab"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "190",
+          "prompt": "Tor",
+          "answers": [
+            "1tu:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "191",
+          "prompt": "flått",
+          "answers": [
+            "1flot"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "192",
+          "prompt": "rodd",
+          "answers": [
+            "1rud"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "193",
+          "prompt": "fordi",
+          "answers": [
+            "fo1ɖi:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "194",
+          "prompt": "har du?",
+          "answers": [
+            "1ha:ɖʉ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "195",
+          "prompt": "Geir",
+          "answers": [
+            "1geir"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "196",
+          "prompt": "rugg",
+          "answers": [
+            "1rʉg"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "197",
+          "prompt": "lam",
+          "answers": [
+            "1lam"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "198",
+          "prompt": "land",
+          "answers": [
+            "1lan"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "199",
+          "prompt": "biff",
+          "answers": [
+            "1bif"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "200",
+          "prompt": "var",
+          "answers": [
+            "1va:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "201",
+          "prompt": "stuss",
+          "answers": [
+            "1stʉs"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "202",
+          "prompt": "hasj",
+          "answers": [
+            "1haʃ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "203",
+          "prompt": "bikkje",
+          "answers": [
+            "2biçe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "204",
+          "prompt": "jojo",
+          "answers": [
+            "2juju"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "205",
+          "prompt": "behå",
+          "answers": [
+            "2be:ho:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "206",
+          "prompt": "rar",
+          "answers": [
+            "1ra:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "207",
+          "prompt": "morr",
+          "answers": [
+            "1mor"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "208",
+          "prompt": "delje",
+          "answers": [
+            "2dæɽje"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "209",
+          "prompt": "fæl",
+          "answers": [
+            "1fæɽ"
+          ],
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "fasit-5",
+      "title": "Enkeltkonsonanter med mindre samsvar med skriftbildet",
+      "type": "write-ipa",
+      "description": "Oppgaver hentet fra fasitdokumentet, gruppert etter kategorien «Enkeltkonsonanter med mindre samsvar med skriftbildet».",
+      "exercises": [
+        {
+          "id": "210",
+          "prompt": "Ibsen",
+          "answers": [
+            "1ipsn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "211",
+          "prompt": "værelse",
+          "answers": [
+            "2væ:ɭse"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "212",
+          "prompt": "xenofobt",
+          "answers": [
+            "senu1fu:pt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "213",
+          "prompt": "stivt",
+          "answers": [
+            "1sti:ft"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "214",
+          "prompt": "godt",
+          "answers": [
+            "1got"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "215",
+          "prompt": "xylofon",
+          "answers": [
+            "sylo1fu:n"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "216",
+          "prompt": "redsel",
+          "answers": [
+            "1retsl"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "217",
+          "prompt": "zoologi",
+          "answers": [
+            "sulu1gi:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "218",
+          "prompt": "celle",
+          "answers": [
+            "2sele"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "219",
+          "prompt": "burde",
+          "answers": [
+            "2bʉʈe"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "220",
+          "prompt": "fælt",
+          "answers": [
+            "1fæ:ʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "221",
+          "prompt": "gult",
+          "answers": [
+            "1gʉ: ʈ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "222",
+          "prompt": "skøyte",
+          "answers": [
+            "2ʃøyte"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "223",
+          "prompt": "sagt",
+          "answers": [
+            "1sakt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "224",
+          "prompt": "Lars",
+          "answers": [
+            "1la:ʃ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "225",
+          "prompt": "viktigst",
+          "answers": [
+            "1viktikst"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "226",
+          "prompt": "kurs",
+          "answers": [
+            "1kʉ:ʃ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "227",
+          "prompt": "generell",
+          "answers": [
+            "ʃene1rel"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "228",
+          "prompt": "ajour",
+          "answers": [
+            "a1ʃʉ:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "229",
+          "prompt": "varmt",
+          "answers": [
+            "1vaɳʈ",
+            "1varmt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "230",
+          "prompt": "attaché",
+          "answers": [
+            "ata1ʃe:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "231",
+          "prompt": "morgen",
+          "answers": [
+            "2mo:oɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "232",
+          "prompt": "tsjekker",
+          "answers": [
+            "1ʃeker"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "233",
+          "prompt": "sagn",
+          "answers": [
+            "1saŋn"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "234",
+          "prompt": "nysgjerrig",
+          "answers": [
+            "ny1ʃæri"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "235",
+          "prompt": "hank",
+          "answers": [
+            "1haŋk"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "236",
+          "prompt": "bronse",
+          "answers": [
+            "2broŋse"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "237",
+          "prompt": "entré",
+          "answers": [
+            "aŋ1tre:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "238",
+          "prompt": "interessant",
+          "answers": [
+            "intre1saŋt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "239",
+          "prompt": "tjern",
+          "answers": [
+            "1çæ:ɳ"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "240",
+          "prompt": "Huitfelt",
+          "answers": [
+            "1vitfelt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "241",
+          "prompt": "gi",
+          "answers": [
+            "1ji:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "242",
+          "prompt": "wigwam",
+          "answers": [
+            "1vigvam"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "243",
+          "prompt": "geip",
+          "answers": [
+            "1jæip"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "244",
+          "prompt": "ion",
+          "answers": [
+            "1ju:n"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "245",
+          "prompt": "solgt",
+          "answers": [
+            "1solkt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "246",
+          "prompt": "Guds hus",
+          "answers": [
+            "1gʉts 1hʉ:s"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "247",
+          "prompt": "gjevt",
+          "answers": [
+            "1je:ft"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "248",
+          "prompt": "skøy",
+          "answers": [
+            "1skøy"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "249",
+          "prompt": "lovt",
+          "answers": [
+            "1lo:ft"
+          ],
+          "type": "write-ipa"
+        }
+      ]
+    },
+    {
+      "id": "fasit-6",
+      "title": "\"Stumme bokstaver\" (bokstaver som ikke representerer et fonem direkte)",
+      "type": "write-ipa",
+      "description": "Oppgaver hentet fra fasitdokumentet, gruppert etter kategorien «\"Stumme bokstaver\" (bokstaver som ikke representerer et fonem direkte)».",
+      "exercises": [
+        {
+          "id": "250",
+          "prompt": "hvit",
+          "answers": [
+            "1vi:t"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "251",
+          "prompt": "hard",
+          "answers": [
+            "1ha:r"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "252",
+          "prompt": "ljore",
+          "answers": [
+            "2ju:re"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "253",
+          "prompt": "psykologi",
+          "answers": [
+            "sykulu1gi:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "254",
+          "prompt": "hjalt",
+          "answers": [
+            "1jalt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "255",
+          "prompt": "gav",
+          "answers": [
+            "1ga:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "256",
+          "prompt": "gjaldt",
+          "answers": [
+            "1jalt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "257",
+          "prompt": "gjelde",
+          "answers": [
+            "2jele"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "258",
+          "prompt": "ond",
+          "answers": [
+            "1un"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "259",
+          "prompt": "bad",
+          "answers": [
+            "1ba:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "260",
+          "prompt": "ondt",
+          "answers": [
+            "1unt"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "261",
+          "prompt": "bedt",
+          "answers": [
+            "1bet"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "262",
+          "prompt": "verdig",
+          "answers": [
+            "2værdi"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "263",
+          "prompt": "England",
+          "answers": [
+            "1eŋlan"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "264",
+          "prompt": "ljå",
+          "answers": [
+            "1jo:"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "265",
+          "prompt": "Rjukan",
+          "answers": [
+            "2rʉ:kan"
+          ],
+          "type": "write-ipa"
+        },
+        {
+          "id": "266",
+          "prompt": "Bård",
+          "answers": [
+            "1bo:r"
+          ],
+          "type": "write-ipa"
+        }
       ]
     }
   ]
